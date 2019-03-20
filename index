@@ -3,70 +3,70 @@ packages:
         git_provider: github.com
         git_owner: afdaniele
         git_repository: compose-pkg-github
-        branch: master
+        git_branch: master
 
     -   id: showdown
         git_provider: github.com
         git_owner: afdaniele
         git_repository: compose-pkg-showdown
-        branch: master
+        git_branch: master
 
     -   id: doxygen
         git_provider: github.com
         git_owner: afdaniele
         git_repository: compose-pkg-doxygen
-        branch: master
+        git_branch: master
 
     -   id: ros
         git_provider: github.com
         git_owner: afdaniele
         git_repository: compose-pkg-ros
-        branch: master
+        git_branch: master
 
     -   id: duckietown
         git_provider: github.com
         git_owner: afdaniele
         git_repository: compose-pkg-duckietown
-        branch: master
+        git_branch: master
 
     -   id: aido_common
         git_provider: github.com
         git_owner: afdaniele
         git_repository: compose-pkg-aido-common
-        branch: master
+        git_branch: master
 
     -   id: aido_duckiebot
         git_provider: github.com
         git_owner: afdaniele
         git_repository: compose-pkg-aido-duckiebot
-        branch: master
+        git_branch: master
 
     -   id: aido_participant
         git_provider: github.com
         git_owner: afdaniele
         git_repository: compose-pkg-aido-participant
-        branch: master
+        git_branch: master
 
     -   id: aido_watchtower
         git_provider: github.com
         git_owner: afdaniele
         git_repository: compose-pkg-aido-watchtower
-        branch: master
+        git_branch: master
 
     -   id: duckietown_blockly
         git_provider: github.com
         git_owner: afdaniele
         git_repository: compose-pkg-duckietown-blockly
-        branch: master
+        git_branch: master
 
     -   id: surveillance
         git_provider: github.com
         git_owner: afdaniele
         git_repository: compose-pkg-surveillance
-        branch: master
+        git_branch: master
 
     -   id: server
         git_provider: github.com
         git_owner: afdaniele
         git_repository: compose-pkg-server
-        branch: master
+        git_branch: master
