@@ -1,13 +1,29 @@
-duckietown: https://github.com/afdaniele/
-aido_duckiebot: https://github.com/afdaniele/
-aido_common: https://github.com/afdaniele/
-duckietown: https://github.com/afdaniele/
-ros: https://github.com/afdaniele/
-duckietown_blockly: https://github.com/afdaniele/
-aido_participant: https://github.com/afdaniele/
-github: https://github.com/afdaniele/
-aido_watchtower: https://github.com/afdaniele/
-surveillance: https://github.com/afdaniele/
-showdown: https://github.com/afdaniele/
-doxygen: https://github.com/afdaniele/
-server: https://github.com/afdaniele/
+packages:
+    -   id: github
+        url: https://github.com/afdaniele/compose-pkg-github
+        branch: master
+        description: GitHub package for the \compose\ platform.
+
+    -   id: showdown
+        url: https://github.com/afdaniele/compose-pkg-showdown
+        branch: master
+        description: Markdown viewer package for the \compose\ platform.
+
+# # Code documentation
+# showdown: https://github.com/afdaniele/compose-pkg-showdown
+# doxygen: https://github.com/afdaniele/compose-pkg-doxygen
+#
+# # ROS
+# ros: https://github.com/afdaniele/compose-pkg-ros
+#
+# # Duckietown / AIDO
+# duckietown: https://github.com/afdaniele/compose-pkg-duckietown
+# aido_common: https://github.com/afdaniele/compose-pkg-aido-common
+# aido_duckiebot: https://github.com/afdaniele/compose-pkg-aido-duckiebot
+# aido_participant: https://github.com/afdaniele/compose-pkg-aido-participant
+# aido_watchtower: https://github.com/afdaniele/compose-pkg-aido-watchtower
+# duckietown_blockly: https://github.com/afdaniele/compose-pkg-duckietown-blockly
+#
+# # Server maintenance
+# surveillance: https://github.com/afdaniele/compose-pkg-surveillance
+# server: https://github.com/afdaniele/compose-pkg-server
