@@ -2,28 +2,47 @@ packages:
     -   id: github
         url: https://github.com/afdaniele/compose-pkg-github
         branch: master
-        description: GitHub package for the \compose\ platform.
 
     -   id: showdown
         url: https://github.com/afdaniele/compose-pkg-showdown
         branch: master
-        description: Markdown viewer package for the \compose\ platform.
 
-# # Code documentation
-# showdown: https://github.com/afdaniele/compose-pkg-showdown
-# doxygen: https://github.com/afdaniele/compose-pkg-doxygen
-#
-# # ROS
-# ros: https://github.com/afdaniele/compose-pkg-ros
-#
-# # Duckietown / AIDO
-# duckietown: https://github.com/afdaniele/compose-pkg-duckietown
-# aido_common: https://github.com/afdaniele/compose-pkg-aido-common
-# aido_duckiebot: https://github.com/afdaniele/compose-pkg-aido-duckiebot
-# aido_participant: https://github.com/afdaniele/compose-pkg-aido-participant
-# aido_watchtower: https://github.com/afdaniele/compose-pkg-aido-watchtower
-# duckietown_blockly: https://github.com/afdaniele/compose-pkg-duckietown-blockly
-#
-# # Server maintenance
-# surveillance: https://github.com/afdaniele/compose-pkg-surveillance
-# server: https://github.com/afdaniele/compose-pkg-server
+    -   id: doxygen
+        url: https://github.com/afdaniele/compose-pkg-doxygen
+        branch: master
+
+    -   id: ros
+        url: https://github.com/afdaniele/compose-pkg-ros
+        branch: master
+
+    -   id: duckietown
+        url: https://github.com/afdaniele/compose-pkg-duckietown
+        branch: master
+
+    -   id: aido_common
+        url: https://github.com/afdaniele/compose-pkg-aido-common
+        branch: master
+
+    -   id: aido_duckiebot
+        url: https://github.com/afdaniele/compose-pkg-aido-duckiebot
+        branch: master
+
+    -   id: aido_participant
+        url: https://github.com/afdaniele/compose-pkg-aido-participant
+        branch: master
+
+    -   id: aido_watchtower
+        url: https://github.com/afdaniele/compose-pkg-aido-watchtower
+        branch: master
+
+    -   id: duckietown_blockly
+        url: https://github.com/afdaniele/compose-pkg-duckietown-blockly
+        branch: master
+
+    -   id: surveillance
+        url: https://github.com/afdaniele/compose-pkg-surveillance
+        branch: master
+
+    -   id: server
+        url: https://github.com/afdaniele/compose-pkg-server
+        branch: master
