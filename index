@@ -1,48 +1,72 @@
 packages:
     -   id: github
-        url: https://github.com/afdaniele/compose-pkg-github
+        git_provider: github.com
+        git_owner: afdaniele
+        git_repository: compose-pkg-github
         branch: master
 
     -   id: showdown
-        url: https://github.com/afdaniele/compose-pkg-showdown
+        git_provider: github.com
+        git_owner: afdaniele
+        git_repository: compose-pkg-showdown
         branch: master
 
     -   id: doxygen
-        url: https://github.com/afdaniele/compose-pkg-doxygen
+        git_provider: github.com
+        git_owner: afdaniele
+        git_repository: compose-pkg-doxygen
         branch: master
 
     -   id: ros
-        url: https://github.com/afdaniele/compose-pkg-ros
+        git_provider: github.com
+        git_owner: afdaniele
+        git_repository: compose-pkg-ros
         branch: master
 
     -   id: duckietown
-        url: https://github.com/afdaniele/compose-pkg-duckietown
+        git_provider: github.com
+        git_owner: afdaniele
+        git_repository: compose-pkg-duckietown
         branch: master
 
     -   id: aido_common
-        url: https://github.com/afdaniele/compose-pkg-aido-common
+        git_provider: github.com
+        git_owner: afdaniele
+        git_repository: compose-pkg-aido-common
         branch: master
 
     -   id: aido_duckiebot
-        url: https://github.com/afdaniele/compose-pkg-aido-duckiebot
+        git_provider: github.com
+        git_owner: afdaniele
+        git_repository: compose-pkg-aido-duckiebot
         branch: master
 
     -   id: aido_participant
-        url: https://github.com/afdaniele/compose-pkg-aido-participant
+        git_provider: github.com
+        git_owner: afdaniele
+        git_repository: compose-pkg-aido-participant
         branch: master
 
     -   id: aido_watchtower
-        url: https://github.com/afdaniele/compose-pkg-aido-watchtower
+        git_provider: github.com
+        git_owner: afdaniele
+        git_repository: compose-pkg-aido-watchtower
         branch: master
 
     -   id: duckietown_blockly
-        url: https://github.com/afdaniele/compose-pkg-duckietown-blockly
+        git_provider: github.com
+        git_owner: afdaniele
+        git_repository: compose-pkg-duckietown-blockly
         branch: master
 
     -   id: surveillance
-        url: https://github.com/afdaniele/compose-pkg-surveillance
+        git_provider: github.com
+        git_owner: afdaniele
+        git_repository: compose-pkg-surveillance
         branch: master
 
     -   id: server
-        url: https://github.com/afdaniele/compose-pkg-server
+        git_provider: github.com
+        git_owner: afdaniele
+        git_repository: compose-pkg-server
         branch: master
