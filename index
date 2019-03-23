@@ -47,13 +47,13 @@ packages:
     git_repository: compose-pkg-duckietown-blockly
     git_branch: master
 
-    - id: aido_common
+  - id: aido_common
     git_provider: github.com
     git_owner: afdaniele
     git_repository: compose-pkg-aido-common
     git_branch: master
 
-    - id: aido_participant
+  - id: aido_participant
     git_provider: github.com
     git_owner: afdaniele
     git_repository: compose-pkg-aido-participant
