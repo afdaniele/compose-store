@@ -70,3 +70,9 @@ packages:
     git_owner: afdaniele
     git_repository: compose-pkg-server
     git_branch: master
+
+  - id: portainer
+    git_provider: github.com
+    git_owner: afdaniele
+    git_repository: compose-pkg-portainer
+    git_branch: master
