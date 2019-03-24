@@ -50,7 +50,7 @@ packages:
     git_owner: afdaniele
     git_repository: compose-pkg-duckietown-duckiebot
     git_branch: master
-    icon: "images/duckietown.png"
+    icon: "images/duckietown_duckiebot.png"
     description: "Provides functionalities for monitoring/controlling Duckiebots in Duckietown"
 
   - id: duckietown_watchtower
@@ -59,7 +59,7 @@ packages:
     git_owner: afdaniele
     git_repository: compose-pkg-duckietown-watchtower
     git_branch: master
-    icon: "images/duckietown.png"
+    icon: "images/duckietown_watchtower.png"
     description: "Provides functionalities for monitoring/controlling watchtowers in Duckietown"
 
   - id: duckietown_blockly
@@ -68,7 +68,7 @@ packages:
     git_owner: afdaniele
     git_repository: compose-pkg-duckietown-blockly
     git_branch: master
-    icon: "images/duckietown.png"
+    icon: "images/duckietown_blockly.png"
     description: "Provides functionalities for controlling a Duckiebot using Google Blockly"
 
   - id: aido_common
