@@ -1,117 +1,117 @@
 packages:
   - id: github
-    name: ""
+    name: "GitHub"
     git_provider: github.com
     git_owner: afdaniele
     git_repository: compose-pkg-github
     git_branch: master
-    icon: null
-    description: ""
+    icon: "images/github.png"
+    description: "Provides an interface to the GitHub API v3"
 
   - id: showdown
-    name: ""
+    name: "Showdown Markdown Viewer"
     git_provider: github.com
     git_owner: afdaniele
     git_repository: compose-pkg-showdown
     git_branch: master
-    icon: null
-    description: ""
+    icon: "images/showdown.png"
+    description: "Provides functionalities for generating code documentation using showdown"
 
   - id: doxygen
-    name: ""
+    name: "Doxygen Documentation"
     git_provider: github.com
     git_owner: afdaniele
     git_repository: compose-pkg-doxygen
     git_branch: master
-    icon: null
-    description: ""
+    icon: "images/doxygen.png"
+    description: "Provides functionalities for generating code documentation using doxygen"
 
   - id: ros
-    name: ""
+    name: "ROS (Robot Operating System)"
     git_provider: github.com
     git_owner: afdaniele
     git_repository: compose-pkg-ros
     git_branch: master
-    icon: null
-    description: ""
+    icon: "images/ros.png"
+    description: "Provides libraries and APIs for exchanging messages with a ROS network via websocket"
 
   - id: duckietown
-    name: ""
+    name: "Duckietown"
     git_provider: github.com
     git_owner: afdaniele
     git_repository: compose-pkg-duckietown
     git_branch: master
-    icon: null
-    description: ""
+    icon: "images/duckietown.png"
+    description: "Provides functionalities for managing entities in Duckietown (e.g., Duckietown, Duckiebots)"
 
   - id: duckietown_duckiebot
-    name: ""
+    name: "Duckietown - Duckiebot"
     git_provider: github.com
     git_owner: afdaniele
     git_repository: compose-pkg-duckietown-duckiebot
     git_branch: master
-    icon: null
-    description: ""
+    icon: "images/duckietown.png"
+    description: "Provides functionalities for monitoring/controlling Duckiebots in Duckietown"
 
   - id: duckietown_watchtower
-    name: ""
+    name: "Duckietown - Watchtower"
     git_provider: github.com
     git_owner: afdaniele
     git_repository: compose-pkg-duckietown-watchtower
     git_branch: master
-    icon: null
-    description: ""
+    icon: "images/duckietown.png"
+    description: "Provides functionalities for monitoring/controlling watchtowers in Duckietown"
 
   - id: duckietown_blockly
-    name: ""
+    name: "Duckietown - Blockly"
     git_provider: github.com
     git_owner: afdaniele
     git_repository: compose-pkg-duckietown-blockly
     git_branch: master
-    icon: null
-    description: ""
+    icon: "images/duckietown.png"
+    description: "Provides functionalities for controlling a Duckiebot using Google Blockly"
 
   - id: aido_common
-    name: ""
+    name: "AIDO - Common"
     git_provider: github.com
     git_owner: afdaniele
     git_repository: compose-pkg-aido-common
     git_branch: master
-    icon: null
-    description: ""
+    icon: "images/aido.png"
+    description: "Provides functionalities needed by all AIDO packages"
 
   - id: aido_participant
-    name: ""
+    name: "AIDO - Participant"
     git_provider: github.com
     git_owner: afdaniele
     git_repository: compose-pkg-aido-participant
     git_branch: master
-    icon: null
-    description: ""
+    icon: "images/aido.png"
+    description: "Provides functionalities for participants of the AIDO competition"
 
   - id: surveillance
-    name: ""
+    name: "Surveillance"
     git_provider: github.com
     git_owner: afdaniele
     git_repository: compose-pkg-surveillance
     git_branch: master
-    icon: null
-    description: ""
+    icon: "images/_default.png"
+    description: "Provides functionalities for live-streaming from cameras and offline footage download and streaming playback"
 
   - id: server
-    name: ""
+    name: "Server"
     git_provider: github.com
     git_owner: afdaniele
     git_repository: compose-pkg-server
     git_branch: master
-    icon: null
-    description: ""
+    icon: "images/_default.png"
+    description: "Provides functionalities for monitoring/interacting with the hosting server"
 
   - id: portainer
-    name: ""
+    name: "Portainer"
     git_provider: github.com
     git_owner: afdaniele
     git_repository: compose-pkg-portainer
     git_branch: master
-    icon: null
-    description: ""
+    icon: "images/portainer.png"
+    description: "Provides seamless integration for an external instance of Portainer"
