@@ -7,6 +7,7 @@ packages:
     git_branch: master
     icon: "images/github.png"
     description: "Provides an interface to the GitHub API v3"
+    dependencies: []
 
   - id: showdown
     name: "Showdown Markdown Viewer"
@@ -16,6 +17,7 @@ packages:
     git_branch: master
     icon: "images/showdown.png"
     description: "Provides functionalities for generating code documentation using showdown"
+    dependencies: []
 
   - id: doxygen
     name: "Doxygen Documentation"
@@ -25,6 +27,7 @@ packages:
     git_branch: master
     icon: "images/doxygen.png"
     description: "Provides functionalities for generating code documentation using doxygen"
+    dependencies: []
 
   - id: ros
     name: "ROS (Robot Operating System)"
@@ -34,6 +37,7 @@ packages:
     git_branch: master
     icon: "images/ros.png"
     description: "Provides libraries and APIs for exchanging messages with a ROS network via websocket"
+    dependencies: []
 
   - id: duckietown
     name: "Duckietown"
@@ -43,6 +47,9 @@ packages:
     git_branch: master
     icon: "images/duckietown.png"
     description: "Provides functionalities for managing entities in Duckietown (e.g., Duckietown, Duckiebots)"
+    dependencies:
+      - ros
+      - portainer
 
   - id: duckietown_duckiebot
     name: "Duckietown - Duckiebot"
@@ -52,6 +59,8 @@ packages:
     git_branch: master
     icon: "images/duckietown_duckiebot.png"
     description: "Provides functionalities for monitoring/controlling Duckiebots in Duckietown"
+    dependencies:
+      - duckietown
 
   - id: duckietown_watchtower
     name: "Duckietown - Watchtower"
@@ -61,6 +70,8 @@ packages:
     git_branch: master
     icon: "images/duckietown_watchtower.png"
     description: "Provides functionalities for monitoring/controlling watchtowers in Duckietown"
+    dependencies:
+      - duckietown
 
   - id: duckietown_blockly
     name: "Duckietown - Blockly"
@@ -70,6 +81,8 @@ packages:
     git_branch: master
     icon: "images/duckietown_blockly.png"
     description: "Provides functionalities for controlling a Duckiebot using Google Blockly"
+    dependencies:
+      - duckietown_duckiebot
 
   - id: aido_common
     name: "AIDO - Common"
@@ -79,6 +92,8 @@ packages:
     git_branch: master
     icon: "images/aido_common.png"
     description: "Provides functionalities needed by all AIDO packages"
+    dependencies:
+      - duckietown
 
   - id: aido_participant
     name: "AIDO - Participant"
@@ -88,6 +103,8 @@ packages:
     git_branch: master
     icon: "images/aido_participant.png"
     description: "Provides functionalities for participants of the AIDO competition"
+    dependencies:
+      - aido_common
 
   - id: surveillance
     name: "Surveillance"
@@ -97,6 +114,7 @@ packages:
     git_branch: master
     icon: "images/_default.png"
     description: "Provides functionalities for live-streaming from cameras and offline footage download and streaming playback"
+    dependencies: []
 
   - id: server
     name: "Server"
@@ -106,6 +124,7 @@ packages:
     git_branch: master
     icon: "images/_default.png"
     description: "Provides functionalities for monitoring/interacting with the hosting server"
+    dependencies: []
 
   - id: portainer
     name: "Portainer"
@@ -115,3 +134,4 @@ packages:
     git_branch: master
     icon: "images/portainer.png"
     description: "Provides seamless integration for an external instance of Portainer"
+    dependencies: []
