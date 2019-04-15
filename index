@@ -78,7 +78,7 @@ packages:
     git_provider: github.com
     git_owner: afdaniele
     git_repository: compose-pkg-duckietown-blockly
-    git_branch: master
+    git_branch: v0.1
     icon: "images/duckietown_blockly.png"
     description: "Provides functionalities for controlling a Duckiebot using Google Blockly"
     dependencies:
