@@ -89,7 +89,7 @@ packages:
     git_provider: github.com
     git_owner: afdaniele
     git_repository: compose-pkg-aido-common
-    git_branch: master
+    git_branch: v0.1
     icon: "images/aido_common.png"
     description: "Provides functionalities needed by all AIDO packages"
     dependencies:
@@ -100,7 +100,7 @@ packages:
     git_provider: github.com
     git_owner: afdaniele
     git_repository: compose-pkg-aido-participant
-    git_branch: master
+    git_branch: v0.1
     icon: "images/aido_participant.png"
     description: "Provides functionalities for participants of the AIDO competition"
     dependencies:
