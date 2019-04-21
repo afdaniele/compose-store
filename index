@@ -9,6 +9,16 @@ packages:
     description: "Provides an interface to the GitHub API v3"
     dependencies: []
 
+  - id: data
+    name: "Data"
+    git_provider: github.com
+    git_owner: afdaniele
+    git_repository: compose-pkg-data
+    git_branch: v0.1
+    icon: "images/_default.png"
+    description: "Provides a simple interface and API end-points for managing simple key-based databases."
+    dependencies: []
+
   - id: showdown
     name: "Showdown Markdown Viewer"
     git_provider: github.com
