@@ -24,7 +24,7 @@ packages:
     git_provider: github.com
     git_owner: afdaniele
     git_repository: compose-pkg-showdown
-    git_branch: master
+    git_branch: v0.1.2
     icon: "images/showdown.png"
     description: "Provides functionalities for generating code documentation using showdown"
     dependencies: []
