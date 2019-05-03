@@ -151,7 +151,7 @@ packages:
     git_provider: github.com
     git_owner: webbe035
     git_repository: compose-pkg-lab_controls
-    git_branch: v0.1
+    git_branch: master
     icon: "images/_default.png"
     description: "Controlling and monitoring the lab environment"
     dependencies: []
