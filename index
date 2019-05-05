@@ -71,6 +71,7 @@ packages:
     description: "Provides functionalities for monitoring/controlling Duckiebots in Duckietown"
     dependencies:
       - duckietown
+      - data
 
   - id: duckietown_watchtower
     name: "Duckietown - Watchtower"
