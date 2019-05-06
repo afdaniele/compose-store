@@ -14,7 +14,7 @@ packages:
     git_provider: github.com
     git_owner: afdaniele
     git_repository: compose-pkg-data
-    git_branch: v0.1
+    git_branch: v0.3.1
     icon: "images/_default.png"
     description: "Provides a simple interface and API end-points for managing simple key-based databases."
     dependencies: []
@@ -66,7 +66,7 @@ packages:
     git_provider: github.com
     git_owner: afdaniele
     git_repository: compose-pkg-duckietown-duckiebot
-    git_branch: master
+    git_branch: v0.1.2
     icon: "images/duckietown_duckiebot.png"
     description: "Provides functionalities for monitoring/controlling Duckiebots in Duckietown"
     dependencies:
