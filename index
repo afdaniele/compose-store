@@ -163,7 +163,7 @@
 			"git_provider": "github.com",
 			"git_owner": "afdaniele",
 			"git_repository": "compose-pkg-portainer",
-			"git_branch": "v0.1",
+			"git_branch": "v0.1.3",
 			"icon": "images/portainer.png",
 			"description": "Provides seamless integration for an external instance of Portainer",
 			"dependencies": []
