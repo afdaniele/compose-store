@@ -50,7 +50,7 @@
 			"git_provider": "github.com",
 			"git_owner": "afdaniele",
 			"git_repository": "compose-pkg-ros",
-			"git_branch": "v0.1.2",
+			"git_branch": "v0.1.3",
 			"icon": "images/ros.png",
 			"description": "Provides libraries and APIs for exchanging messages with a ROS network via websocket",
 			"dependencies": []
