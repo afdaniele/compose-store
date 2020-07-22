@@ -1,0 +1,88 @@
+{
+	"packages": [
+		{
+			"id": "github",
+			"git_provider": "github.com",
+			"git_owner": "afdaniele",
+			"git_repository": "compose-pkg-github",
+			"icon": "images/github.png"
+		},
+		{
+			"id": "data",
+			"git_provider": "github.com",
+			"git_owner": "afdaniele",
+			"git_repository": "compose-pkg-data",
+			"icon": "images/_default.png"
+		},
+		{
+			"id": "showdown",
+			"git_provider": "github.com",
+			"git_owner": "afdaniele",
+			"git_repository": "compose-pkg-showdown",
+			"icon": "images/showdown.png"
+		},
+		{
+			"id": "doxygen",
+			"git_provider": "github.com",
+			"git_owner": "afdaniele",
+			"git_repository": "compose-pkg-doxygen",
+			"icon": "images/doxygen.png"
+		},
+		{
+			"id": "ros",
+			"git_provider": "github.com",
+			"git_owner": "afdaniele",
+			"git_repository": "compose-pkg-ros",
+			"icon": "images/ros.png"
+		},
+		{
+			"id": "duckietown",
+			"git_provider": "github.com",
+			"git_owner": "afdaniele",
+			"git_repository": "compose-pkg-duckietown",
+			"icon": "images/duckietown.png"
+		},
+		{
+			"id": "duckietown_duckiebot",
+			"git_provider": "github.com",
+			"git_owner": "afdaniele",
+			"git_repository": "compose-pkg-duckietown-duckiebot",
+			"icon": "images/duckietown_duckiebot.png"
+		},
+		{
+			"id": "duckietown_watchtower",
+			"git_provider": "github.com",
+			"git_owner": "afdaniele",
+			"git_repository": "compose-pkg-duckietown-watchtower",
+			"icon": "images/duckietown_watchtower.png"
+		},
+		{
+			"id": "duckietown_blockly",
+			"git_provider": "github.com",
+			"git_owner": "afdaniele",
+			"git_repository": "compose-pkg-duckietown-blockly",
+			"icon": "images/duckietown_blockly.png"
+		},
+		{
+			"id": "aido_common",
+			"git_provider": "github.com",
+			"git_owner": "afdaniele",
+			"git_repository": "compose-pkg-aido-common",
+			"icon": "images/aido_common.png"
+		},
+		{
+			"id": "aido_participant",
+			"git_provider": "github.com",
+			"git_owner": "afdaniele",
+			"git_repository": "compose-pkg-aido-participant",
+			"icon": "images/aido_participant.png"
+		},
+		{
+			"id": "portainer",
+			"git_provider": "github.com",
+			"git_owner": "afdaniele",
+			"git_repository": "compose-pkg-portainer",
+			"icon": "images/portainer.png"
+		}
+	]
+}

@@ -1,0 +1,837 @@
+{
+    "packages": {
+        "aido_common": {
+            "description": "Provides utilities shared among all the AIDO packages",
+            "git": {
+                "owner": "afdaniele",
+                "provider": "github.com",
+                "repository": "compose-pkg-aido-common"
+            },
+            "name": "AIDO - Common",
+            "versions": {
+                "list": {
+                    "compatibility": {
+                        "maximum": "v0.9.9",
+                        "minimum": "v0.0.0"
+                    },
+                    "dependencies": [
+                        "duckietown"
+                    ]
+                },
+                "v0.1": {
+                    "compatibility": {
+                        "maximum": "v0.9.9",
+                        "minimum": "v0.0.0"
+                    },
+                    "dependencies": [
+                        "duckietown"
+                    ]
+                },
+                "v0.1.1": {
+                    "compatibility": {
+                        "maximum": "v0.9.9",
+                        "minimum": "v0.0.0"
+                    },
+                    "dependencies": [
+                        "duckietown"
+                    ]
+                },
+                "v0.1.2": {
+                    "compatibility": {
+                        "maximum": "v0.9.9",
+                        "minimum": "v0.0.0"
+                    },
+                    "dependencies": [
+                        "duckietown"
+                    ]
+                },
+                "v0.1.3": {
+                    "compatibility": {
+                        "maximum": "v0.9.9",
+                        "minimum": "v0.0.0"
+                    },
+                    "dependencies": [
+                        "duckietown"
+                    ]
+                },
+                "v0.1.4": {
+                    "compatibility": {
+                        "maximum": "v0.9.9",
+                        "minimum": "v0.0.0"
+                    },
+                    "dependencies": [
+                        "duckietown"
+                    ]
+                },
+                "v0.1.5": {
+                    "compatibility": {
+                        "maximum": "v0.9.9",
+                        "minimum": "v0.0.0"
+                    },
+                    "dependencies": [
+                        "duckietown"
+                    ]
+                }
+            }
+        },
+        "aido_participant": {
+            "description": "Provides functionalities for participants and supervisors of the AIDO competition",
+            "git": {
+                "owner": "afdaniele",
+                "provider": "github.com",
+                "repository": "compose-pkg-aido-participant"
+            },
+            "name": "AIDO - Dashboard",
+            "versions": {
+                "v0.1": {
+                    "compatibility": {
+                        "maximum": "v0.9.9",
+                        "minimum": "v0.0.0"
+                    },
+                    "dependencies": [
+                        "aido_common"
+                    ]
+                },
+                "v0.1.1": {
+                    "compatibility": {
+                        "maximum": "v0.9.9",
+                        "minimum": "v0.0.0"
+                    },
+                    "dependencies": [
+                        "aido_common"
+                    ]
+                },
+                "v0.1.2": {
+                    "compatibility": {
+                        "maximum": "v0.9.9",
+                        "minimum": "v0.0.0"
+                    },
+                    "dependencies": [
+                        "aido_common"
+                    ]
+                },
+                "v0.1.3": {
+                    "compatibility": {
+                        "maximum": "v0.9.9",
+                        "minimum": "v0.0.0"
+                    },
+                    "dependencies": [
+                        "aido_common"
+                    ]
+                },
+                "v0.1.4": {
+                    "compatibility": {
+                        "maximum": "v0.9.9",
+                        "minimum": "v0.0.0"
+                    },
+                    "dependencies": [
+                        "aido_common"
+                    ]
+                }
+            }
+        },
+        "data": {
+            "description": "Provides a simple interface to a key-based database.",
+            "git": {
+                "owner": "afdaniele",
+                "provider": "github.com",
+                "repository": "compose-pkg-data"
+            },
+            "name": "Data",
+            "versions": {
+                "v0.1": {
+                    "compatibility": {
+                        "maximum": "v0.9.9",
+                        "minimum": "v0.0.0"
+                    },
+                    "dependencies": []
+                },
+                "v0.1.1": {
+                    "compatibility": {
+                        "maximum": "v0.9.9",
+                        "minimum": "v0.0.0"
+                    },
+                    "dependencies": []
+                },
+                "v0.1.2": {
+                    "compatibility": {
+                        "maximum": "v0.9.9",
+                        "minimum": "v0.0.0"
+                    },
+                    "dependencies": []
+                },
+                "v0.2": {
+                    "compatibility": {
+                        "maximum": "v0.9.9",
+                        "minimum": "v0.0.0"
+                    },
+                    "dependencies": []
+                },
+                "v0.2.1": {
+                    "compatibility": {
+                        "maximum": "v0.9.9",
+                        "minimum": "v0.0.0"
+                    },
+                    "dependencies": []
+                },
+                "v0.2.2": {
+                    "compatibility": {
+                        "maximum": "v0.9.9",
+                        "minimum": "v0.0.0"
+                    },
+                    "dependencies": []
+                },
+                "v0.3": {
+                    "compatibility": {
+                        "maximum": "v0.9.9",
+                        "minimum": "v0.0.0"
+                    },
+                    "dependencies": []
+                },
+                "v0.3.1": {
+                    "compatibility": {
+                        "maximum": "v0.9.9",
+                        "minimum": "v0.0.0"
+                    },
+                    "dependencies": []
+                },
+                "v1.0.0-rc": {
+                    "compatibility": {
+                        "maximum": "v0.9.9",
+                        "minimum": "v0.0.0"
+                    },
+                    "dependencies": []
+                },
+                "v1.0.0-rc2": {
+                    "compatibility": {
+                        "compose": {
+                            "maximum": "v2.0.0",
+                            "minimum": "v1.0.0"
+                        }
+                    },
+                    "dependencies": []
+                }
+            }
+        },
+        "doxygen": {
+            "description": "Provides functionalities for generating code documentation using doxygen",
+            "git": {
+                "owner": "afdaniele",
+                "provider": "github.com",
+                "repository": "compose-pkg-doxygen"
+            },
+            "name": "Doxygen Documentation",
+            "versions": {
+                "v0.1.0": {
+                    "compatibility": {
+                        "maximum": "v0.9.9",
+                        "minimum": "v0.0.0"
+                    },
+                    "dependencies": []
+                },
+                "v0.1.1": {
+                    "compatibility": {
+                        "maximum": "v0.9.9",
+                        "minimum": "v0.0.0"
+                    },
+                    "dependencies": []
+                }
+            }
+        },
+        "duckietown": {
+            "description": "Provides functionalities for managing entities in Duckietown (e.g., Duckietown, Duckiebots)",
+            "git": {
+                "owner": "afdaniele",
+                "provider": "github.com",
+                "repository": "compose-pkg-duckietown"
+            },
+            "name": "Duckietown",
+            "versions": {
+                "v0.1": {
+                    "compatibility": {
+                        "maximum": "v0.9.9",
+                        "minimum": "v0.0.0"
+                    },
+                    "dependencies": [
+                        "ros",
+                        "portainer"
+                    ]
+                },
+                "v0.1.1": {
+                    "compatibility": {
+                        "maximum": "v0.9.9",
+                        "minimum": "v0.0.0"
+                    },
+                    "dependencies": [
+                        "ros",
+                        "portainer"
+                    ]
+                },
+                "v0.1.2": {
+                    "compatibility": {
+                        "maximum": "v0.9.9",
+                        "minimum": "v0.0.0"
+                    },
+                    "dependencies": [
+                        "ros",
+                        "portainer"
+                    ]
+                },
+                "v0.1.3": {
+                    "compatibility": {
+                        "maximum": "v0.9.9",
+                        "minimum": "v0.0.0"
+                    },
+                    "dependencies": [
+                        "ros",
+                        "portainer"
+                    ]
+                },
+                "v0.1.4": {
+                    "compatibility": {
+                        "maximum": "v0.9.9",
+                        "minimum": "v0.0.0"
+                    },
+                    "dependencies": [
+                        "ros",
+                        "portainer"
+                    ]
+                },
+                "v0.1.5": {
+                    "compatibility": {
+                        "maximum": "v0.9.9",
+                        "minimum": "v0.0.0"
+                    },
+                    "dependencies": [
+                        "ros",
+                        "portainer"
+                    ]
+                },
+                "v0.1.6": {
+                    "compatibility": {
+                        "maximum": "v0.9.9",
+                        "minimum": "v0.0.0"
+                    },
+                    "dependencies": [
+                        "ros",
+                        "portainer"
+                    ]
+                },
+                "v1.0.0-rc": {
+                    "compatibility": {
+                        "maximum": "v0.9.9",
+                        "minimum": "v0.0.0"
+                    },
+                    "dependencies": [
+                        "ros",
+                        "portainer"
+                    ]
+                },
+                "v1.0.0-rc2": {
+                    "compatibility": {
+                        "compose": {
+                            "maximum": "v2.0.0",
+                            "minimum": "v1.0.0"
+                        }
+                    },
+                    "dependencies": [
+                        "ros",
+                        "portainer"
+                    ]
+                }
+            }
+        },
+        "duckietown_blockly": {
+            "description": "Provides functionalities for controlling a Duckiebot using ROS",
+            "git": {
+                "owner": "afdaniele",
+                "provider": "github.com",
+                "repository": "compose-pkg-duckietown-blockly"
+            },
+            "name": "Duckietown - Blockly",
+            "versions": {
+                "v0.1": {
+                    "compatibility": {
+                        "maximum": "v0.9.9",
+                        "minimum": "v0.0.0"
+                    },
+                    "dependencies": [
+                        "duckietown_duckiebot"
+                    ]
+                },
+                "v0.1.1": {
+                    "compatibility": {
+                        "maximum": "v0.9.9",
+                        "minimum": "v0.0.0"
+                    },
+                    "dependencies": [
+                        "duckietown_duckiebot"
+                    ]
+                },
+                "v0.1.2": {
+                    "compatibility": {
+                        "maximum": "v0.9.9",
+                        "minimum": "v0.0.0"
+                    },
+                    "dependencies": [
+                        "duckietown_duckiebot"
+                    ]
+                },
+                "v0.2": {
+                    "compatibility": {
+                        "maximum": "v0.9.9",
+                        "minimum": "v0.0.0"
+                    },
+                    "dependencies": [
+                        "duckietown_duckiebot"
+                    ]
+                },
+                "v0.2.1": {
+                    "compatibility": {
+                        "maximum": "v0.9.9",
+                        "minimum": "v0.0.0"
+                    },
+                    "dependencies": [
+                        "duckietown_duckiebot"
+                    ]
+                },
+                "v0.2.2": {
+                    "compatibility": {
+                        "maximum": "v0.9.9",
+                        "minimum": "v0.0.0"
+                    },
+                    "dependencies": [
+                        "duckietown_duckiebot"
+                    ]
+                },
+                "v0.2.3": {
+                    "compatibility": {
+                        "maximum": "v0.9.9",
+                        "minimum": "v0.0.0"
+                    },
+                    "dependencies": [
+                        "duckietown_duckiebot"
+                    ]
+                },
+                "v1.0.0-rc": {
+                    "compatibility": {
+                        "compose": {
+                            "maximum": "v2.0.0",
+                            "minimum": "v1.0.0"
+                        }
+                    },
+                    "dependencies": [
+                        "duckietown_duckiebot"
+                    ]
+                }
+            }
+        },
+        "duckietown_duckiebot": {
+            "description": "Provides functionalities for monitoring Duckiebots",
+            "git": {
+                "owner": "afdaniele",
+                "provider": "github.com",
+                "repository": "compose-pkg-duckietown-duckiebot"
+            },
+            "name": "Duckietown - Duckiebot",
+            "versions": {
+                "v0.1": {
+                    "compatibility": {
+                        "maximum": "v0.9.9",
+                        "minimum": "v0.0.0"
+                    },
+                    "dependencies": [
+                        "duckietown"
+                    ]
+                },
+                "v0.1.0": {
+                    "compatibility": {
+                        "maximum": "v0.9.9",
+                        "minimum": "v0.0.0"
+                    },
+                    "dependencies": [
+                        "duckietown"
+                    ]
+                },
+                "v0.1.1": {
+                    "compatibility": {
+                        "maximum": "v0.9.9",
+                        "minimum": "v0.0.0"
+                    },
+                    "dependencies": [
+                        "duckietown"
+                    ]
+                },
+                "v0.1.2": {
+                    "compatibility": {
+                        "maximum": "v0.9.9",
+                        "minimum": "v0.0.0"
+                    },
+                    "dependencies": [
+                        "duckietown",
+                        "data"
+                    ]
+                },
+                "v0.2": {
+                    "compatibility": {
+                        "maximum": "v0.9.9",
+                        "minimum": "v0.0.0"
+                    },
+                    "dependencies": [
+                        "duckietown",
+                        "data"
+                    ]
+                },
+                "v0.2.1": {
+                    "compatibility": {
+                        "maximum": "v0.9.9",
+                        "minimum": "v0.0.0"
+                    },
+                    "dependencies": [
+                        "duckietown",
+                        "data"
+                    ]
+                },
+                "v0.2.2": {
+                    "compatibility": {
+                        "maximum": "v0.9.9",
+                        "minimum": "v0.0.0"
+                    },
+                    "dependencies": [
+                        "duckietown",
+                        "data"
+                    ]
+                },
+                "v0.2.4": {
+                    "compatibility": {
+                        "maximum": "v0.9.9",
+                        "minimum": "v0.0.0"
+                    },
+                    "dependencies": [
+                        "duckietown",
+                        "data"
+                    ]
+                },
+                "v0.2.5": {
+                    "compatibility": {
+                        "maximum": "v0.9.9",
+                        "minimum": "v0.0.0"
+                    },
+                    "dependencies": [
+                        "duckietown",
+                        "data"
+                    ]
+                },
+                "v0.2.6": {
+                    "compatibility": {
+                        "maximum": "v0.9.9",
+                        "minimum": "v0.0.0"
+                    },
+                    "dependencies": [
+                        "duckietown",
+                        "data"
+                    ]
+                },
+                "v0.2.7": {
+                    "compatibility": {
+                        "maximum": "v0.9.9",
+                        "minimum": "v0.0.0"
+                    },
+                    "dependencies": [
+                        "duckietown",
+                        "data"
+                    ]
+                },
+                "v0.2.8": {
+                    "compatibility": {
+                        "maximum": "v0.9.9",
+                        "minimum": "v0.0.0"
+                    },
+                    "dependencies": [
+                        "duckietown",
+                        "data"
+                    ]
+                },
+                "v0.2.9": {
+                    "compatibility": {
+                        "maximum": "v0.9.9",
+                        "minimum": "v0.0.0"
+                    },
+                    "dependencies": [
+                        "duckietown",
+                        "data"
+                    ]
+                },
+                "v1.0.0-rc": {
+                    "compatibility": {
+                        "maximum": "v0.9.9",
+                        "minimum": "v0.0.0"
+                    },
+                    "dependencies": [
+                        "duckietown",
+                        "data"
+                    ]
+                },
+                "v1.0.0-rc2": {
+                    "compatibility": {
+                        "maximum": "v0.9.9",
+                        "minimum": "v0.0.0"
+                    },
+                    "dependencies": [
+                        "duckietown",
+                        "data"
+                    ]
+                },
+                "v1.0.0-rc3": {
+                    "compatibility": {
+                        "maximum": "v0.9.9",
+                        "minimum": "v0.0.0"
+                    },
+                    "dependencies": [
+                        "duckietown",
+                        "data"
+                    ]
+                },
+                "v1.0.0-rc4": {
+                    "compatibility": {
+                        "maximum": "v0.9.9",
+                        "minimum": "v0.0.0"
+                    },
+                    "dependencies": [
+                        "duckietown",
+                        "data"
+                    ]
+                },
+                "v1.0.0-rc5": {
+                    "compatibility": {
+                        "compose": {
+                            "maximum": "v2.0.0",
+                            "minimum": "v1.0.0"
+                        }
+                    },
+                    "dependencies": [
+                        "duckietown",
+                        "data"
+                    ]
+                }
+            }
+        },
+        "duckietown_watchtower": {
+            "description": "Provides functionalities for monitoring watchtowers in Duckietown",
+            "git": {
+                "owner": "afdaniele",
+                "provider": "github.com",
+                "repository": "compose-pkg-duckietown-watchtower"
+            },
+            "name": "Duckietown - Watchtower",
+            "versions": {
+                "v0.1.0": {
+                    "compatibility": {
+                        "maximum": "v0.9.9",
+                        "minimum": "v0.0.0"
+                    },
+                    "dependencies": [
+                        "duckietown"
+                    ]
+                },
+                "v0.1.1": {
+                    "compatibility": {
+                        "maximum": "v0.9.9",
+                        "minimum": "v0.0.0"
+                    },
+                    "dependencies": [
+                        "duckietown"
+                    ]
+                }
+            }
+        },
+        "github": {
+            "description": "Provides an interface to the GitHub API v3",
+            "git": {
+                "owner": "afdaniele",
+                "provider": "github.com",
+                "repository": "compose-pkg-github"
+            },
+            "name": "GitHub",
+            "versions": {
+                "v0.1.0": {
+                    "compatibility": {
+                        "maximum": "v0.9.9",
+                        "minimum": "v0.0.0"
+                    },
+                    "dependencies": []
+                },
+                "v0.1.1": {
+                    "compatibility": {
+                        "maximum": "v0.9.9",
+                        "minimum": "v0.0.0"
+                    },
+                    "dependencies": []
+                }
+            }
+        },
+        "portainer": {
+            "description": "Provides a page that incorporates portainer",
+            "git": {
+                "owner": "afdaniele",
+                "provider": "github.com",
+                "repository": "compose-pkg-portainer"
+            },
+            "name": "Portainer",
+            "versions": {
+                "v0.1": {
+                    "compatibility": {
+                        "maximum": "v0.9.9",
+                        "minimum": "v0.0.0"
+                    },
+                    "dependencies": []
+                },
+                "v0.1.1": {
+                    "compatibility": {
+                        "maximum": "v0.9.9",
+                        "minimum": "v0.0.0"
+                    },
+                    "dependencies": []
+                },
+                "v0.1.2": {
+                    "compatibility": {
+                        "maximum": "v0.9.9",
+                        "minimum": "v0.0.0"
+                    },
+                    "dependencies": []
+                },
+                "v0.1.3": {
+                    "compatibility": {
+                        "maximum": "v0.9.9",
+                        "minimum": "v0.0.0"
+                    },
+                    "dependencies": []
+                },
+                "v0.1.4": {
+                    "compatibility": {
+                        "maximum": "v0.9.9",
+                        "minimum": "v0.0.0"
+                    },
+                    "dependencies": []
+                },
+                "v1.0.0-rc": {
+                    "compatibility": {
+                        "maximum": "v0.9.9",
+                        "minimum": "v0.0.0"
+                    },
+                    "dependencies": []
+                },
+                "v1.0.0-rc2": {
+                    "compatibility": {
+                        "compose": {
+                            "maximum": "v2.0.0",
+                            "minimum": "v1.0.0"
+                        }
+                    },
+                    "dependencies": []
+                }
+            }
+        },
+        "ros": {
+            "description": "Provides libraries and APIs for exchanging messages with a ROS network via websocket",
+            "git": {
+                "owner": "afdaniele",
+                "provider": "github.com",
+                "repository": "compose-pkg-ros"
+            },
+            "name": "ROS",
+            "versions": {
+                "v0.1": {
+                    "compatibility": {
+                        "maximum": "v0.9.9",
+                        "minimum": "v0.0.0"
+                    },
+                    "dependencies": []
+                },
+                "v0.1.0": {
+                    "compatibility": {
+                        "maximum": "v0.9.9",
+                        "minimum": "v0.0.0"
+                    },
+                    "dependencies": []
+                },
+                "v0.1.1": {
+                    "compatibility": {
+                        "maximum": "v0.9.9",
+                        "minimum": "v0.0.0"
+                    },
+                    "dependencies": []
+                },
+                "v0.1.2": {
+                    "compatibility": {
+                        "maximum": "v0.9.9",
+                        "minimum": "v0.0.0"
+                    },
+                    "dependencies": []
+                },
+                "v0.1.3": {
+                    "compatibility": {
+                        "maximum": "v0.9.9",
+                        "minimum": "v0.0.0"
+                    },
+                    "dependencies": []
+                },
+                "v1.0.0-rc": {
+                    "compatibility": {
+                        "maximum": "v0.9.9",
+                        "minimum": "v0.0.0"
+                    },
+                    "dependencies": []
+                },
+                "v1.0.0-rc2": {
+                    "compatibility": {
+                        "compose": {
+                            "maximum": "v2.0.0",
+                            "minimum": "v1.0.0"
+                        }
+                    },
+                    "dependencies": []
+                }
+            }
+        },
+        "showdown": {
+            "description": "Provides functionalities for generating code documentation using showdown (http://www.showdownjs.com/)",
+            "git": {
+                "owner": "afdaniele",
+                "provider": "github.com",
+                "repository": "compose-pkg-showdown"
+            },
+            "name": "Showdown Markdown Viewer",
+            "versions": {
+                "v0.1.0": {
+                    "compatibility": {
+                        "maximum": "v0.9.9",
+                        "minimum": "v0.0.0"
+                    },
+                    "dependencies": []
+                },
+                "v0.1.1": {
+                    "compatibility": {
+                        "maximum": "v0.9.9",
+                        "minimum": "v0.0.0"
+                    },
+                    "dependencies": []
+                },
+                "v0.1.2": {
+                    "compatibility": {
+                        "maximum": "v0.9.9",
+                        "minimum": "v0.0.0"
+                    },
+                    "dependencies": []
+                },
+                "v0.1.3": {
+                    "compatibility": {
+                        "maximum": "v0.9.9",
+                        "minimum": "v0.0.0"
+                    },
+                    "dependencies": []
+                }
+            }
+        }
+    }
+}
