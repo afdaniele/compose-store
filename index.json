@@ -7,6 +7,7 @@
                 "provider": "github.com",
                 "repository": "compose-pkg-aido-common"
             },
+            "icon": "images/aido_common.png",
             "name": "AIDO - Common",
             "versions": {
                 "list": {
@@ -81,6 +82,7 @@
                 "provider": "github.com",
                 "repository": "compose-pkg-aido-participant"
             },
+            "icon": "images/aido_participant.png",
             "name": "AIDO - Dashboard",
             "versions": {
                 "v0.1": {
@@ -137,6 +139,7 @@
                 "provider": "github.com",
                 "repository": "compose-pkg-data"
             },
+            "icon": "images/_default.png",
             "name": "Data",
             "versions": {
                 "v0.1": {
@@ -220,6 +223,7 @@
                 "provider": "github.com",
                 "repository": "compose-pkg-doxygen"
             },
+            "icon": "images/doxygen.png",
             "name": "Doxygen Documentation",
             "versions": {
                 "v0.1.0": {
@@ -245,6 +249,7 @@
                 "provider": "github.com",
                 "repository": "compose-pkg-duckietown"
             },
+            "icon": "images/duckietown.png",
             "name": "Duckietown",
             "versions": {
                 "v0.1": {
@@ -348,6 +353,7 @@
                 "provider": "github.com",
                 "repository": "compose-pkg-duckietown-blockly"
             },
+            "icon": "images/duckietown_blockly.png",
             "name": "Duckietown - Blockly",
             "versions": {
                 "v0.1": {
@@ -433,6 +439,7 @@
                 "provider": "github.com",
                 "repository": "compose-pkg-duckietown-duckiebot"
             },
+            "icon": "images/duckietown_duckiebot.png",
             "name": "Duckietown - Duckiebot",
             "versions": {
                 "v0.1": {
@@ -623,6 +630,7 @@
                 "provider": "github.com",
                 "repository": "compose-pkg-duckietown-watchtower"
             },
+            "icon": "images/duckietown_watchtower.png",
             "name": "Duckietown - Watchtower",
             "versions": {
                 "v0.1.0": {
@@ -652,6 +660,7 @@
                 "provider": "github.com",
                 "repository": "compose-pkg-github"
             },
+            "icon": "images/github.png",
             "name": "GitHub",
             "versions": {
                 "v0.1.0": {
@@ -677,6 +686,7 @@
                 "provider": "github.com",
                 "repository": "compose-pkg-portainer"
             },
+            "icon": "images/portainer.png",
             "name": "Portainer",
             "versions": {
                 "v0.1": {
@@ -739,6 +749,7 @@
                 "provider": "github.com",
                 "repository": "compose-pkg-ros"
             },
+            "icon": "images/ros.png",
             "name": "ROS",
             "versions": {
                 "v0.1": {
@@ -801,6 +812,7 @@
                 "provider": "github.com",
                 "repository": "compose-pkg-showdown"
             },
+            "icon": "images/showdown.png",
             "name": "Showdown Markdown Viewer",
             "versions": {
                 "v0.1.0": {

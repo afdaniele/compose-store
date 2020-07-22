@@ -35,7 +35,7 @@ def main():
                         help="Index file to write to")
     parser.add_argument('--packages', required=True,
                         help="File containing the list of packages to create the index for")
-    parser.add_argument('--no-cache', default=False,
+    parser.add_argument('--no-cache', default=False, action='store_true',
                         help="Disable cache")
     parsed, _ = parser.parse_known_args()
     # ---
@@ -116,7 +116,8 @@ def main():
                     'owner': package['git_owner'],
                     'repository': package['git_repository']
                 },
-                'versions': {}
+                'versions': {},
+                'icon': package['icon']
             }
         # fetch compatibility data
         for tag in tags:
