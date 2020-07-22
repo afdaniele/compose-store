@@ -10,17 +10,6 @@
             "icon": "images/aido_common.png",
             "name": "AIDO - Common",
             "versions": {
-                "v0.1": {
-                    "compatibility": {
-                        "compose": {
-                            "maximum": "v0.9.9",
-                            "minimum": "v0.0.0"
-                        }
-                    },
-                    "dependencies": [
-                        "duckietown"
-                    ]
-                },
                 "v0.1.1": {
                     "compatibility": {
                         "compose": {
@@ -88,17 +77,6 @@
             "icon": "images/aido_participant.png",
             "name": "AIDO - Dashboard",
             "versions": {
-                "v0.1": {
-                    "compatibility": {
-                        "compose": {
-                            "maximum": "v0.9.9",
-                            "minimum": "v0.0.0"
-                        }
-                    },
-                    "dependencies": [
-                        "aido_common"
-                    ]
-                },
                 "v0.1.1": {
                     "compatibility": {
                         "compose": {
@@ -155,15 +133,6 @@
             "icon": "images/_default.png",
             "name": "Data",
             "versions": {
-                "v0.1": {
-                    "compatibility": {
-                        "compose": {
-                            "maximum": "v0.9.9",
-                            "minimum": "v0.0.0"
-                        }
-                    },
-                    "dependencies": []
-                },
                 "v0.1.1": {
                     "compatibility": {
                         "compose": {
@@ -182,15 +151,6 @@
                     },
                     "dependencies": []
                 },
-                "v0.2": {
-                    "compatibility": {
-                        "compose": {
-                            "maximum": "v0.9.9",
-                            "minimum": "v0.0.0"
-                        }
-                    },
-                    "dependencies": []
-                },
                 "v0.2.1": {
                     "compatibility": {
                         "compose": {
@@ -201,15 +161,6 @@
                     "dependencies": []
                 },
                 "v0.2.2": {
-                    "compatibility": {
-                        "compose": {
-                            "maximum": "v0.9.9",
-                            "minimum": "v0.0.0"
-                        }
-                    },
-                    "dependencies": []
-                },
-                "v0.3": {
                     "compatibility": {
                         "compose": {
                             "maximum": "v0.9.9",
@@ -287,18 +238,6 @@
             "icon": "images/duckietown.png",
             "name": "Duckietown",
             "versions": {
-                "v0.1": {
-                    "compatibility": {
-                        "compose": {
-                            "maximum": "v0.9.9",
-                            "minimum": "v0.0.0"
-                        }
-                    },
-                    "dependencies": [
-                        "ros",
-                        "portainer"
-                    ]
-                },
                 "v0.1.1": {
                     "compatibility": {
                         "compose": {
@@ -407,17 +346,6 @@
             "icon": "images/duckietown_blockly.png",
             "name": "Duckietown - Blockly",
             "versions": {
-                "v0.1": {
-                    "compatibility": {
-                        "compose": {
-                            "maximum": "v0.9.9",
-                            "minimum": "v0.0.0"
-                        }
-                    },
-                    "dependencies": [
-                        "duckietown_duckiebot"
-                    ]
-                },
                 "v0.1.1": {
                     "compatibility": {
                         "compose": {
@@ -430,17 +358,6 @@
                     ]
                 },
                 "v0.1.2": {
-                    "compatibility": {
-                        "compose": {
-                            "maximum": "v0.9.9",
-                            "minimum": "v0.0.0"
-                        }
-                    },
-                    "dependencies": [
-                        "duckietown_duckiebot"
-                    ]
-                },
-                "v0.2": {
                     "compatibility": {
                         "compose": {
                             "maximum": "v0.9.9",
@@ -507,17 +424,6 @@
             "icon": "images/duckietown_duckiebot.png",
             "name": "Duckietown - Duckiebot",
             "versions": {
-                "v0.1": {
-                    "compatibility": {
-                        "compose": {
-                            "maximum": "v0.9.9",
-                            "minimum": "v0.0.0"
-                        }
-                    },
-                    "dependencies": [
-                        "duckietown"
-                    ]
-                },
                 "v0.1.0": {
                     "compatibility": {
                         "compose": {
@@ -541,18 +447,6 @@
                     ]
                 },
                 "v0.1.2": {
-                    "compatibility": {
-                        "compose": {
-                            "maximum": "v0.9.9",
-                            "minimum": "v0.0.0"
-                        }
-                    },
-                    "dependencies": [
-                        "duckietown",
-                        "data"
-                    ]
-                },
-                "v0.2": {
                     "compatibility": {
                         "compose": {
                             "maximum": "v0.9.9",
@@ -796,15 +690,6 @@
             "icon": "images/portainer.png",
             "name": "Portainer",
             "versions": {
-                "v0.1": {
-                    "compatibility": {
-                        "compose": {
-                            "maximum": "v0.9.9",
-                            "minimum": "v0.0.0"
-                        }
-                    },
-                    "dependencies": []
-                },
                 "v0.1.1": {
                     "compatibility": {
                         "compose": {
@@ -871,15 +756,6 @@
             "icon": "images/ros.png",
             "name": "ROS",
             "versions": {
-                "v0.1": {
-                    "compatibility": {
-                        "compose": {
-                            "maximum": "v0.9.9",
-                            "minimum": "v0.0.0"
-                        }
-                    },
-                    "dependencies": []
-                },
                 "v0.1.0": {
                     "compatibility": {
                         "compose": {

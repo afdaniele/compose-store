@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 import os
+import re
 import sys
 import json
 import argparse
@@ -10,7 +11,7 @@ from collections import defaultdict
 
 logging.basicConfig()
 logger = logging.getLogger('index-generator')
-logger.setLevel(logging.INFO)
+logger.setLevel(logging.DEBUG)
 
 GIT_PROVIDER_TO_TAGS_URL = {
     "github.com": "https://api.github.com/repos/{git_owner}/{git_repository}/git/refs/tags",
@@ -28,6 +29,8 @@ NO_COMPATIBILITY_DATA = {
         'maximum': 'v0.9.9',
     }
 }
+
+VERSION_REGEX = "v[\d]+\.[\d]+\.[\d]+"
 
 
 def main():
@@ -123,6 +126,9 @@ def main():
             }
         # fetch compatibility data
         for tag in tags:
+            if not re.match(VERSION_REGEX, tag):
+                logger.debug('  ! Ignoring tag {tag}, not a valid version'.format(tag=tag))
+                continue
             logger.info('   > Fetching data for tag {tag}'.format(tag=tag))
             # check if we already have this data
             if tag in index['packages'][package['id']]['versions']:
