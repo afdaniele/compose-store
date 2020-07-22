@@ -287,10 +287,7 @@
                             "minimum": "v1.0.0"
                         }
                     },
-                    "dependencies": [
-                        "ros",
-                        "portainer"
-                    ]
+                    "dependencies": []
                 }
             }
         },
