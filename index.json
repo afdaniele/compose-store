@@ -177,24 +177,6 @@
                         }
                     },
                     "dependencies": []
-                },
-                "v1.0.0-rc": {
-                    "compatibility": {
-                        "compose": {
-                            "maximum": "v0.9.9",
-                            "minimum": "v0.0.0"
-                        }
-                    },
-                    "dependencies": []
-                },
-                "v1.0.0-rc2": {
-                    "compatibility": {
-                        "compose": {
-                            "maximum": "v2.0.0",
-                            "minimum": "v1.0.0"
-                        }
-                    },
-                    "dependencies": []
                 }
             }
         },
@@ -309,30 +291,6 @@
                         "ros",
                         "portainer"
                     ]
-                },
-                "v1.0.0-rc": {
-                    "compatibility": {
-                        "compose": {
-                            "maximum": "v0.9.9",
-                            "minimum": "v0.0.0"
-                        }
-                    },
-                    "dependencies": [
-                        "ros",
-                        "portainer"
-                    ]
-                },
-                "v1.0.0-rc2": {
-                    "compatibility": {
-                        "compose": {
-                            "maximum": "v2.0.0",
-                            "minimum": "v1.0.0"
-                        }
-                    },
-                    "dependencies": [
-                        "ros",
-                        "portainer"
-                    ]
                 }
             }
         },
@@ -395,17 +353,6 @@
                         "compose": {
                             "maximum": "v0.9.9",
                             "minimum": "v0.0.0"
-                        }
-                    },
-                    "dependencies": [
-                        "duckietown_duckiebot"
-                    ]
-                },
-                "v1.0.0-rc": {
-                    "compatibility": {
-                        "compose": {
-                            "maximum": "v2.0.0",
-                            "minimum": "v1.0.0"
                         }
                     },
                     "dependencies": [
@@ -553,66 +500,6 @@
                         "duckietown",
                         "data"
                     ]
-                },
-                "v1.0.0-rc": {
-                    "compatibility": {
-                        "compose": {
-                            "maximum": "v0.9.9",
-                            "minimum": "v0.0.0"
-                        }
-                    },
-                    "dependencies": [
-                        "duckietown",
-                        "data"
-                    ]
-                },
-                "v1.0.0-rc2": {
-                    "compatibility": {
-                        "compose": {
-                            "maximum": "v0.9.9",
-                            "minimum": "v0.0.0"
-                        }
-                    },
-                    "dependencies": [
-                        "duckietown",
-                        "data"
-                    ]
-                },
-                "v1.0.0-rc3": {
-                    "compatibility": {
-                        "compose": {
-                            "maximum": "v0.9.9",
-                            "minimum": "v0.0.0"
-                        }
-                    },
-                    "dependencies": [
-                        "duckietown",
-                        "data"
-                    ]
-                },
-                "v1.0.0-rc4": {
-                    "compatibility": {
-                        "compose": {
-                            "maximum": "v0.9.9",
-                            "minimum": "v0.0.0"
-                        }
-                    },
-                    "dependencies": [
-                        "duckietown",
-                        "data"
-                    ]
-                },
-                "v1.0.0-rc5": {
-                    "compatibility": {
-                        "compose": {
-                            "maximum": "v2.0.0",
-                            "minimum": "v1.0.0"
-                        }
-                    },
-                    "dependencies": [
-                        "duckietown",
-                        "data"
-                    ]
                 }
             }
         },
@@ -725,24 +612,6 @@
                         }
                     },
                     "dependencies": []
-                },
-                "v1.0.0-rc": {
-                    "compatibility": {
-                        "compose": {
-                            "maximum": "v0.9.9",
-                            "minimum": "v0.0.0"
-                        }
-                    },
-                    "dependencies": []
-                },
-                "v1.0.0-rc2": {
-                    "compatibility": {
-                        "compose": {
-                            "maximum": "v2.0.0",
-                            "minimum": "v1.0.0"
-                        }
-                    },
-                    "dependencies": []
                 }
             }
         },
@@ -788,24 +657,6 @@
                         "compose": {
                             "maximum": "v0.9.9",
                             "minimum": "v0.0.0"
-                        }
-                    },
-                    "dependencies": []
-                },
-                "v1.0.0-rc": {
-                    "compatibility": {
-                        "compose": {
-                            "maximum": "v0.9.9",
-                            "minimum": "v0.0.0"
-                        }
-                    },
-                    "dependencies": []
-                },
-                "v1.0.0-rc2": {
-                    "compatibility": {
-                        "compose": {
-                            "maximum": "v2.0.0",
-                            "minimum": "v1.0.0"
                         }
                     },
                     "dependencies": []
