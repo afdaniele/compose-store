@@ -2,16 +2,6 @@
     "aido_common": {
         "Content": [
             {
-                "node_id": "MDM6UmVmMTQzNTc3OTM4OnJlZnMvdGFncy9saXN0",
-                "object": {
-                    "sha": "56ddb3426b87661553c6984fdd83f17ebc333a81",
-                    "type": "commit",
-                    "url": "https://api.github.com/repos/afdaniele/compose-pkg-aido-common/git/commits/56ddb3426b87661553c6984fdd83f17ebc333a81"
-                },
-                "ref": "refs/tags/list",
-                "url": "https://api.github.com/repos/afdaniele/compose-pkg-aido-common/git/refs/tags/list"
-            },
-            {
                 "node_id": "MDM6UmVmMTQzNTc3OTM4OnJlZnMvdGFncy92MC4x",
                 "object": {
                     "sha": "56ddb3426b87661553c6984fdd83f17ebc333a81",
@@ -72,7 +62,7 @@
                 "url": "https://api.github.com/repos/afdaniele/compose-pkg-aido-common/git/refs/tags/v0.1.5"
             }
         ],
-        "ETag": "W/\"53343549a2bd85483b3fd78d40ef1061\""
+        "ETag": "W/\"0b2707aa9b87fdbb71191023b071a3e9\""
     },
     "aido_participant": {
         "Content": [

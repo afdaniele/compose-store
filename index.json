@@ -10,15 +10,6 @@
             "icon": "images/aido_common.png",
             "name": "AIDO - Common",
             "versions": {
-                "list": {
-                    "compatibility": {
-                        "maximum": "v0.9.9",
-                        "minimum": "v0.0.0"
-                    },
-                    "dependencies": [
-                        "duckietown"
-                    ]
-                },
                 "v0.1": {
                     "compatibility": {
                         "maximum": "v0.9.9",
