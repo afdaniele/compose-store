@@ -23,8 +23,10 @@ GIT_PROVIDER_TO_RAW_URL = {
 }
 
 NO_COMPATIBILITY_DATA = {
-    'minimum': 'v0.0.0',
-    'maximum': 'v0.9.9',
+    'compose': {
+        'minimum': 'v0.0.0',
+        'maximum': 'v0.9.9',
+    }
 }
 
 
