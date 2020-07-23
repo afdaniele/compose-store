@@ -177,6 +177,15 @@
                         }
                     },
                     "dependencies": []
+                },
+                "v1.0.0": {
+                    "compatibility": {
+                        "compose": {
+                            "maximum": "v2.0.0",
+                            "minimum": "v1.0.0"
+                        }
+                    },
+                    "dependencies": []
                 }
             }
         },
@@ -285,6 +294,18 @@
                         "compose": {
                             "maximum": "v0.9.9",
                             "minimum": "v0.0.0"
+                        }
+                    },
+                    "dependencies": [
+                        "ros",
+                        "portainer"
+                    ]
+                },
+                "v1.0.0": {
+                    "compatibility": {
+                        "compose": {
+                            "maximum": "v2.0.0",
+                            "minimum": "v1.0.0"
                         }
                     },
                     "dependencies": [
@@ -500,6 +521,18 @@
                         "duckietown",
                         "data"
                     ]
+                },
+                "v1.0.0": {
+                    "compatibility": {
+                        "compose": {
+                            "maximum": "v2.0.0",
+                            "minimum": "v1.0.0"
+                        }
+                    },
+                    "dependencies": [
+                        "duckietown",
+                        "data"
+                    ]
                 }
             }
         },
@@ -612,6 +645,15 @@
                         }
                     },
                     "dependencies": []
+                },
+                "v1.0.0": {
+                    "compatibility": {
+                        "compose": {
+                            "maximum": "v2.0.0",
+                            "minimum": "v1.0.0"
+                        }
+                    },
+                    "dependencies": []
                 }
             }
         },
@@ -657,6 +699,15 @@
                         "compose": {
                             "maximum": "v0.9.9",
                             "minimum": "v0.0.0"
+                        }
+                    },
+                    "dependencies": []
+                },
+                "v1.0.0": {
+                    "compatibility": {
+                        "compose": {
+                            "maximum": "v2.0.0",
+                            "minimum": "v1.0.0"
                         }
                     },
                     "dependencies": []
