@@ -775,9 +775,19 @@
                 },
                 "ref": "refs/tags/v1.0.0",
                 "url": "https://api.github.com/repos/afdaniele/compose-pkg-portainer/git/refs/tags/v1.0.0"
+            },
+            {
+                "node_id": "MDM6UmVmMTc3MjUwMDA0OnJlZnMvdGFncy92MS4wLjE=",
+                "object": {
+                    "sha": "dd2ecc87b25dd1cf66bd428b8c87d9e459d0338a",
+                    "type": "tag",
+                    "url": "https://api.github.com/repos/afdaniele/compose-pkg-portainer/git/tags/dd2ecc87b25dd1cf66bd428b8c87d9e459d0338a"
+                },
+                "ref": "refs/tags/v1.0.1",
+                "url": "https://api.github.com/repos/afdaniele/compose-pkg-portainer/git/refs/tags/v1.0.1"
             }
         ],
-        "ETag": "W/\"194db2580cf83c235712c59841449e59\""
+        "ETag": "W/\"7c8683e703b3ffc43ac2af4406e414b6\""
     },
     "ros": {
         "Content": [
