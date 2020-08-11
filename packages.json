@@ -43,6 +43,13 @@
 			"icon": "images/duckietown.png"
 		},
 		{
+			"id": "duckietown_dashboard",
+			"git_provider": "github.com",
+			"git_owner": "duckietown",
+			"git_repository": "compose-pkg-duckietown-dashboard",
+			"icon": "images/duckietown_dashboard.png"
+		},
+		{
 			"id": "duckietown_duckiebot",
 			"git_provider": "github.com",
 			"git_owner": "afdaniele",
