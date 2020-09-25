@@ -324,6 +324,18 @@
                         "ros",
                         "portainer"
                     ]
+                },
+                "v1.0.2": {
+                    "compatibility": {
+                        "compose": {
+                            "maximum": "v2.0.0",
+                            "minimum": "v1.0.0"
+                        }
+                    },
+                    "dependencies": [
+                        "ros",
+                        "portainer"
+                    ]
                 }
             }
         },
@@ -402,9 +414,20 @@
                 "repository": "compose-pkg-duckietown-dashboard"
             },
             "icon": "images/duckietown_dashboard.png",
-            "name": "Duckietown Dashboard",
+            "name": "Duckietown - Dashboard",
             "versions": {
                 "v1.0.0": {
+                    "compatibility": {
+                        "compose": {
+                            "maximum": "v2.0.0",
+                            "minimum": "v1.0.0"
+                        }
+                    },
+                    "dependencies": [
+                        "duckietown"
+                    ]
+                },
+                "v1.0.1": {
                     "compatibility": {
                         "compose": {
                             "maximum": "v2.0.0",
@@ -594,6 +617,18 @@
                     ]
                 },
                 "v1.0.3": {
+                    "compatibility": {
+                        "compose": {
+                            "maximum": "v2.0.0",
+                            "minimum": "v1.0.2"
+                        }
+                    },
+                    "dependencies": [
+                        "duckietown",
+                        "data"
+                    ]
+                },
+                "v1.0.4": {
                     "compatibility": {
                         "compose": {
                             "maximum": "v2.0.0",

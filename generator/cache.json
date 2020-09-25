@@ -62,7 +62,7 @@
                 "url": "https://api.github.com/repos/afdaniele/compose-pkg-aido-common/git/refs/tags/v0.1.5"
             }
         ],
-        "ETag": "W/\"0b2707aa9b87fdbb71191023b071a3e9\""
+        "ETag": "W/\"5431a8d6d0b677be98dae8546e7bfa96e7ca3294d1cb60521c65a1ce0021a90c\""
     },
     "aido_participant": {
         "Content": [
@@ -117,7 +117,7 @@
                 "url": "https://api.github.com/repos/afdaniele/compose-pkg-aido-participant/git/refs/tags/v0.1.4"
             }
         ],
-        "ETag": "W/\"657989a98599606b394e5a34d2de5537\""
+        "ETag": "W/\"2e5ee7a3d09a0b7aa805adc3fc30c765d1dff473e49aae4e28471061d1432fb8\""
     },
     "data": {
         "Content": [
@@ -232,7 +232,7 @@
                 "url": "https://api.github.com/repos/afdaniele/compose-pkg-data/git/refs/tags/v1.0.0"
             }
         ],
-        "ETag": "W/\"f4314a0c05f319f13f1da608e17b5053\""
+        "ETag": "W/\"a2bc02beee084c7ff3081ad18d531c16e490e32d666598d4a92f4cdae01dca51\""
     },
     "doxygen": {
         "Content": [
@@ -257,7 +257,7 @@
                 "url": "https://api.github.com/repos/afdaniele/compose-pkg-doxygen/git/refs/tags/v0.1.1"
             }
         ],
-        "ETag": "W/\"404bcc7bff14b11a25f3dc82bf6c5da2\""
+        "ETag": "W/\"af93b715fa159147dcb71ae70f7bd4a260e8c4571b3d0ea94921a17f80baab1c\""
     },
     "duckietown": {
         "Content": [
@@ -370,9 +370,19 @@
                 },
                 "ref": "refs/tags/v1.0.1",
                 "url": "https://api.github.com/repos/afdaniele/compose-pkg-duckietown/git/refs/tags/v1.0.1"
+            },
+            {
+                "node_id": "MDM6UmVmMTE3MzgxMjgzOnJlZnMvdGFncy92MS4wLjI=",
+                "object": {
+                    "sha": "83d8b6e0d18e336d4dd74c2b8bd0de72faed8dcf",
+                    "type": "tag",
+                    "url": "https://api.github.com/repos/afdaniele/compose-pkg-duckietown/git/tags/83d8b6e0d18e336d4dd74c2b8bd0de72faed8dcf"
+                },
+                "ref": "refs/tags/v1.0.2",
+                "url": "https://api.github.com/repos/afdaniele/compose-pkg-duckietown/git/refs/tags/v1.0.2"
             }
         ],
-        "ETag": "W/\"1172582e10e95977a069e09f9f89c053\""
+        "ETag": "W/\"7f3b0df8d1a51c65f078c3db96bfde9748e100f4459c14c4f5cdfe52636aea13\""
     },
     "duckietown_blockly": {
         "Content": [
@@ -457,7 +467,7 @@
                 "url": "https://api.github.com/repos/afdaniele/compose-pkg-duckietown-blockly/git/refs/tags/v1.0.0-rc"
             }
         ],
-        "ETag": "W/\"1f26a53f6d02ee26986e1f736253d147\""
+        "ETag": "W/\"28d65bfd9e8665ec01804a99817c09b5ccc9015d96e034cbcdd920b7ba6268ed\""
     },
     "duckietown_dashboard": {
         "Content": [
@@ -470,9 +480,19 @@
                 },
                 "ref": "refs/tags/v1.0.0",
                 "url": "https://api.github.com/repos/duckietown/compose-pkg-duckietown-dashboard/git/refs/tags/v1.0.0"
+            },
+            {
+                "node_id": "MDM6UmVmMjg2MTM3MTg5OnJlZnMvdGFncy92MS4wLjE=",
+                "object": {
+                    "sha": "ba2e9802dca365da9430780df7f02b016454af61",
+                    "type": "tag",
+                    "url": "https://api.github.com/repos/duckietown/compose-pkg-duckietown-dashboard/git/tags/ba2e9802dca365da9430780df7f02b016454af61"
+                },
+                "ref": "refs/tags/v1.0.1",
+                "url": "https://api.github.com/repos/duckietown/compose-pkg-duckietown-dashboard/git/refs/tags/v1.0.1"
             }
         ],
-        "ETag": "W/\"6dc55851ce3445c4b93f2aab3f3a6954\""
+        "ETag": "W/\"30a976728b4597950c1b5043f9c26f1b88866aa34959b3803a30fa8eb537c3cd\""
     },
     "duckietown_duckiebot": {
         "Content": [
@@ -695,9 +715,19 @@
                 },
                 "ref": "refs/tags/v1.0.3",
                 "url": "https://api.github.com/repos/afdaniele/compose-pkg-duckietown-duckiebot/git/refs/tags/v1.0.3"
+            },
+            {
+                "node_id": "MDM6UmVmMTQzNTczNDc5OnJlZnMvdGFncy92MS4wLjQ=",
+                "object": {
+                    "sha": "b8772139e20a2815f75508e74f12739099eacdbf",
+                    "type": "tag",
+                    "url": "https://api.github.com/repos/afdaniele/compose-pkg-duckietown-duckiebot/git/tags/b8772139e20a2815f75508e74f12739099eacdbf"
+                },
+                "ref": "refs/tags/v1.0.4",
+                "url": "https://api.github.com/repos/afdaniele/compose-pkg-duckietown-duckiebot/git/refs/tags/v1.0.4"
             }
         ],
-        "ETag": "W/\"06d7dc2f5750b16cc6b2877543060f1c\""
+        "ETag": "W/\"55f1a6985ebe323c0de4d3e55bde27c3c957c22b4df57e3ae890f95a2d85edfe\""
     },
     "duckietown_watchtower": {
         "Content": [
@@ -722,7 +752,7 @@
                 "url": "https://api.github.com/repos/afdaniele/compose-pkg-duckietown-watchtower/git/refs/tags/v0.1.1"
             }
         ],
-        "ETag": "W/\"ffa676adffbbaccdde4d9aee88fb09cf\""
+        "ETag": "W/\"8d7a7ee1c458fdd5ec66d1dd027bed8f5b5a2b0d2ef78b00366680ab12b072bd\""
     },
     "github": {
         "Content": [
@@ -747,7 +777,7 @@
                 "url": "https://api.github.com/repos/afdaniele/compose-pkg-github/git/refs/tags/v0.1.1"
             }
         ],
-        "ETag": "W/\"d8b89f7ef78c201f30ad24b4ab8ab18d\""
+        "ETag": "W/\"bd25b025e7814bca4153a469aceba9da66dcb72f4025c936bd6222b92b46d01a\""
     },
     "portainer": {
         "Content": [
@@ -842,7 +872,7 @@
                 "url": "https://api.github.com/repos/afdaniele/compose-pkg-portainer/git/refs/tags/v1.0.1"
             }
         ],
-        "ETag": "W/\"7c8683e703b3ffc43ac2af4406e414b6\""
+        "ETag": "W/\"946823fe119286f00c7f0d1f13bbe3840ce68cfb341bd109c67af52196257cda\""
     },
     "ros": {
         "Content": [
@@ -927,7 +957,7 @@
                 "url": "https://api.github.com/repos/afdaniele/compose-pkg-ros/git/refs/tags/v1.0.0"
             }
         ],
-        "ETag": "W/\"61fd31dd362e7082efbb8f59388c5d37\""
+        "ETag": "W/\"6f70c0bd1b1daf8251d789732eeb6b0b8c892aff66adee7992ba93a0aeb9efab\""
     },
     "showdown": {
         "Content": [
@@ -972,6 +1002,6 @@
                 "url": "https://api.github.com/repos/afdaniele/compose-pkg-showdown/git/refs/tags/v0.1.3"
             }
         ],
-        "ETag": "W/\"a5b677c8214e95d49384a05d00785b84\""
+        "ETag": "W/\"a65b614cb3f91cbe1b79ad340fa35b05db83fafbf08c09835dc653be1964e4ba\""
     }
 }
