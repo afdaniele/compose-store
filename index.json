@@ -406,49 +406,15 @@
                 }
             }
         },
-        "duckietown_dashboard": {
-            "description": "Provides tools and pages for the public Duckietown Dashboard",
-            "git": {
-                "owner": "duckietown",
-                "provider": "github.com",
-                "repository": "compose-pkg-duckietown-dashboard"
-            },
-            "icon": "images/duckietown_dashboard.png",
-            "name": "Duckietown - Dashboard",
-            "versions": {
-                "v1.0.0": {
-                    "compatibility": {
-                        "compose": {
-                            "maximum": "v2.0.0",
-                            "minimum": "v1.0.0"
-                        }
-                    },
-                    "dependencies": [
-                        "duckietown"
-                    ]
-                },
-                "v1.0.1": {
-                    "compatibility": {
-                        "compose": {
-                            "maximum": "v2.0.0",
-                            "minimum": "v1.0.0"
-                        }
-                    },
-                    "dependencies": [
-                        "duckietown"
-                    ]
-                }
-            }
-        },
         "duckietown_diagnostics": {
-            "description": "Provides tools and pages for the public Duckietown Dashboard",
+            "description": "Provides tools and pages for managing the Duckietown Device Diagnostics Service (D3S) backend.",
             "git": {
                 "owner": "duckietown",
                 "provider": "github.com",
                 "repository": "compose-pkg-duckietown-diagnostics"
             },
             "icon": "images/duckietown_diagnostics.png",
-            "name": "Duckietown - Dashboard",
+            "name": "Duckietown - Diagnostics",
             "versions": {
                 "v1.0.0": {
                     "compatibility": {
@@ -462,6 +428,17 @@
                     ]
                 },
                 "v1.0.1": {
+                    "compatibility": {
+                        "compose": {
+                            "maximum": "v2.0.0",
+                            "minimum": "v1.0.0"
+                        }
+                    },
+                    "dependencies": [
+                        "duckietown"
+                    ]
+                },
+                "v1.0.2": {
                     "compatibility": {
                         "compose": {
                             "maximum": "v2.0.0",
@@ -691,40 +668,6 @@
                         "compose": {
                             "maximum": "v2.0.0",
                             "minimum": "v1.0.0"
-                        }
-                    },
-                    "dependencies": [
-                        "duckietown"
-                    ]
-                }
-            }
-        },
-        "duckietown_watchtower": {
-            "description": "Provides functionalities for monitoring watchtowers in Duckietown",
-            "git": {
-                "owner": "afdaniele",
-                "provider": "github.com",
-                "repository": "compose-pkg-duckietown-watchtower"
-            },
-            "icon": "images/duckietown_watchtower.png",
-            "name": "Duckietown - Watchtower",
-            "versions": {
-                "v0.1.0": {
-                    "compatibility": {
-                        "compose": {
-                            "maximum": "v0.9.9",
-                            "minimum": "v0.0.0"
-                        }
-                    },
-                    "dependencies": [
-                        "duckietown"
-                    ]
-                },
-                "v0.1.1": {
-                    "compatibility": {
-                        "compose": {
-                            "maximum": "v0.9.9",
-                            "minimum": "v0.0.0"
                         }
                     },
                     "dependencies": [
