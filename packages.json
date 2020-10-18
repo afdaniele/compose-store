@@ -43,11 +43,18 @@
 			"icon": "images/duckietown.png"
 		},
 		{
-			"id": "duckietown_dashboard",
+			"id": "duckietown_diagnostics",
 			"git_provider": "github.com",
 			"git_owner": "duckietown",
-			"git_repository": "compose-pkg-duckietown-dashboard",
-			"icon": "images/duckietown_dashboard.png"
+			"git_repository": "compose-pkg-duckietown-diagnostics",
+			"icon": "images/duckietown_diagnostics.png"
+		},
+		{
+			"id": "duckietown_storage",
+			"git_provider": "github.com",
+			"git_owner": "duckietown",
+			"git_repository": "compose-pkg-duckietown-storage",
+			"icon": "images/duckietown_storage.png"
 		},
 		{
 			"id": "duckietown_duckiebot",
@@ -55,13 +62,6 @@
 			"git_owner": "afdaniele",
 			"git_repository": "compose-pkg-duckietown-duckiebot",
 			"icon": "images/duckietown_duckiebot.png"
-		},
-		{
-			"id": "duckietown_watchtower",
-			"git_provider": "github.com",
-			"git_owner": "afdaniele",
-			"git_repository": "compose-pkg-duckietown-watchtower",
-			"icon": "images/duckietown_watchtower.png"
 		},
 		{
 			"id": "duckietown_blockly",
