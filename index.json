@@ -666,7 +666,7 @@
             }
         },
         "duckietown_storage": {
-            "description": "Provides tools and pages for managing the Duckietown Cloud Storage Service",
+            "description": "Provides tools and pages for managing the Duckietown Cloud Storage Service (DCSS).",
             "git": {
                 "owner": "duckietown",
                 "provider": "github.com",
@@ -676,6 +676,17 @@
             "name": "Duckietown - Storage",
             "versions": {
                 "v0.0.1": {
+                    "compatibility": {
+                        "compose": {
+                            "maximum": "v2.0.0",
+                            "minimum": "v1.0.0"
+                        }
+                    },
+                    "dependencies": [
+                        "duckietown"
+                    ]
+                },
+                "v0.0.2": {
                     "compatibility": {
                         "compose": {
                             "maximum": "v2.0.0",

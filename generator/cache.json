@@ -785,9 +785,19 @@
                 },
                 "ref": "refs/tags/v0.0.1",
                 "url": "https://api.github.com/repos/duckietown/compose-pkg-duckietown-storage/git/refs/tags/v0.0.1"
+            },
+            {
+                "node_id": "MDM6UmVmMzA1MTQ1Mjg1OnJlZnMvdGFncy92MC4wLjI=",
+                "object": {
+                    "sha": "49f9c3980a5fa8fdc6a7804073a5fda0913f77f2",
+                    "type": "tag",
+                    "url": "https://api.github.com/repos/duckietown/compose-pkg-duckietown-storage/git/tags/49f9c3980a5fa8fdc6a7804073a5fda0913f77f2"
+                },
+                "ref": "refs/tags/v0.0.2",
+                "url": "https://api.github.com/repos/duckietown/compose-pkg-duckietown-storage/git/refs/tags/v0.0.2"
             }
         ],
-        "ETag": "W/\"40019e3c888155864720127fb57a7857ae43c62bcc152be28097557302b9bcb5\""
+        "ETag": "W/\"a48c6aa6d25ee55f040dc783d95f951013a73f648a799581f50ad032d76d9c29\""
     },
     "duckietown_watchtower": {
         "Content": [
