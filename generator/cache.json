@@ -494,6 +494,31 @@
         ],
         "ETag": "W/\"30a976728b4597950c1b5043f9c26f1b88866aa34959b3803a30fa8eb537c3cd\""
     },
+    "duckietown_diagnostics": {
+        "Content": [
+            {
+                "node_id": "MDM6UmVmMjg2MTM3MTg5OnJlZnMvdGFncy92MS4wLjA=",
+                "object": {
+                    "sha": "f6ea26dc228c568d4e01054d13188b7bc9c756da",
+                    "type": "tag",
+                    "url": "https://api.github.com/repos/duckietown/compose-pkg-duckietown-diagnostics/git/tags/f6ea26dc228c568d4e01054d13188b7bc9c756da"
+                },
+                "ref": "refs/tags/v1.0.0",
+                "url": "https://api.github.com/repos/duckietown/compose-pkg-duckietown-diagnostics/git/refs/tags/v1.0.0"
+            },
+            {
+                "node_id": "MDM6UmVmMjg2MTM3MTg5OnJlZnMvdGFncy92MS4wLjE=",
+                "object": {
+                    "sha": "ba2e9802dca365da9430780df7f02b016454af61",
+                    "type": "tag",
+                    "url": "https://api.github.com/repos/duckietown/compose-pkg-duckietown-diagnostics/git/tags/ba2e9802dca365da9430780df7f02b016454af61"
+                },
+                "ref": "refs/tags/v1.0.1",
+                "url": "https://api.github.com/repos/duckietown/compose-pkg-duckietown-diagnostics/git/refs/tags/v1.0.1"
+            }
+        ],
+        "ETag": "W/\"1ae74ca02d7abf8bb6248529bddc623068a61c5ed2b5623bb042480cc225428c\""
+    },
     "duckietown_duckiebot": {
         "Content": [
             {
@@ -728,6 +753,21 @@
             }
         ],
         "ETag": "W/\"55f1a6985ebe323c0de4d3e55bde27c3c957c22b4df57e3ae890f95a2d85edfe\""
+    },
+    "duckietown_storage": {
+        "Content": [
+            {
+                "node_id": "MDM6UmVmMzA1MTQ1Mjg1OnJlZnMvdGFncy92MC4wLjE=",
+                "object": {
+                    "sha": "2af02fcdefb49652bf9ad8432c3c2a1838763677",
+                    "type": "tag",
+                    "url": "https://api.github.com/repos/duckietown/compose-pkg-duckietown-storage/git/tags/2af02fcdefb49652bf9ad8432c3c2a1838763677"
+                },
+                "ref": "refs/tags/v0.0.1",
+                "url": "https://api.github.com/repos/duckietown/compose-pkg-duckietown-storage/git/refs/tags/v0.0.1"
+            }
+        ],
+        "ETag": "W/\"40019e3c888155864720127fb57a7857ae43c62bcc152be28097557302b9bcb5\""
     },
     "duckietown_watchtower": {
         "Content": [
