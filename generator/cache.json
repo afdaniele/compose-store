@@ -535,9 +535,19 @@
                 },
                 "ref": "refs/tags/v1.0.2",
                 "url": "https://api.github.com/repos/duckietown/compose-pkg-duckietown-diagnostics/git/refs/tags/v1.0.2"
+            },
+            {
+                "node_id": "MDM6UmVmMjg2MTM3MTg5OnJlZnMvdGFncy92MS4wLjM=",
+                "object": {
+                    "sha": "537cbd0cbd884b3d66373a7c0b3014ad32a93f21",
+                    "type": "tag",
+                    "url": "https://api.github.com/repos/duckietown/compose-pkg-duckietown-diagnostics/git/tags/537cbd0cbd884b3d66373a7c0b3014ad32a93f21"
+                },
+                "ref": "refs/tags/v1.0.3",
+                "url": "https://api.github.com/repos/duckietown/compose-pkg-duckietown-diagnostics/git/refs/tags/v1.0.3"
             }
         ],
-        "ETag": "W/\"73df5cb29a4dae9b293e21fc48f19bd33a06c08193320e1526f328c02963a064\""
+        "ETag": "W/\"c0e28aff5531d828180cbbd2fbeb3fa0726cffad33a3f91a3b3b1efe378aa7e1\""
     },
     "duckietown_duckiebot": {
         "Content": [

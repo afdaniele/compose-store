@@ -460,6 +460,18 @@
                     "dependencies": [
                         "duckietown"
                     ]
+                },
+                "v1.0.3": {
+                    "compatibility": {
+                        "compose": {
+                            "maximum": "v2.0.0",
+                            "minimum": "v1.0.0"
+                        }
+                    },
+                    "dependencies": [
+                        "duckietown",
+                        "data"
+                    ]
                 }
             }
         },
