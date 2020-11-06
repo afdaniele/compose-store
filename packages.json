@@ -64,6 +64,13 @@
 			"icon": "images/duckietown_duckiebot.png"
 		},
 		{
+			"id": "duckietown_duckiedrone",
+			"git_provider": "github.com",
+			"git_owner": "duckietown",
+			"git_repository": "compose-pkg-duckietown-duckiedrone",
+			"icon": "images/duckietown_duckiedrone.png"
+		},
+		{
 			"id": "duckietown_blockly",
 			"git_provider": "github.com",
 			"git_owner": "afdaniele",

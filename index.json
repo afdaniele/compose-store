@@ -686,6 +686,29 @@
                 }
             }
         },
+        "duckietown_duckiedrone": {
+            "description": "Provides functionalities for monitoring Duckiebots",
+            "git": {
+                "owner": "duckietown",
+                "provider": "github.com",
+                "repository": "compose-pkg-duckietown-duckiedrone"
+            },
+            "icon": "images/duckietown_duckiedrone.png",
+            "name": "Duckietown - Duckiedrone",
+            "versions": {
+                "v1.0.0": {
+                    "compatibility": {
+                        "compose": {
+                            "maximum": "v2.0.0",
+                            "minimum": "v1.0.0"
+                        }
+                    },
+                    "dependencies": [
+                        "ros"
+                    ]
+                }
+            }
+        },
         "duckietown_storage": {
             "description": "Provides tools and pages for managing the Duckietown Cloud Storage Service (DCSS).",
             "git": {
