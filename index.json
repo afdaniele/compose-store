@@ -742,6 +742,29 @@
                 }
             }
         },
+        "duckietown_ros": {
+            "description": "Provides utilities for supporting ROS in Duckietown.",
+            "git": {
+                "owner": "duckietown",
+                "provider": "github.com",
+                "repository": "compose-pkg-duckietown-ros"
+            },
+            "icon": "images/duckietown_ros.png",
+            "name": "Duckietown - ROS",
+            "versions": {
+                "v0.0.1": {
+                    "compatibility": {
+                        "compose": {
+                            "maximum": "v2.0.0",
+                            "minimum": "v1.0.0"
+                        }
+                    },
+                    "dependencies": [
+                        "ros"
+                    ]
+                }
+            }
+        },
         "duckietown_storage": {
             "description": "Provides tools and pages for managing the Duckietown Cloud Storage Service (DCSS).",
             "git": {

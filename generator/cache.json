@@ -839,6 +839,21 @@
         ],
         "ETag": "W/\"f88809acb0ecad6c6dee4f5553125091c96339aa1340f7072daebf6f8bb7a612\""
     },
+    "duckietown_ros": {
+        "Content": [
+            {
+                "node_id": "MDM6UmVmMzA1MjQ2NzY0OnJlZnMvdGFncy92MC4wLjE=",
+                "object": {
+                    "sha": "d41637dc1df8d994ce6d18202ac7160987639a78",
+                    "type": "tag",
+                    "url": "https://api.github.com/repos/duckietown/compose-pkg-duckietown-ros/git/tags/d41637dc1df8d994ce6d18202ac7160987639a78"
+                },
+                "ref": "refs/tags/v0.0.1",
+                "url": "https://api.github.com/repos/duckietown/compose-pkg-duckietown-ros/git/refs/tags/v0.0.1"
+            }
+        ],
+        "ETag": "W/\"46514429e96e49e8d650f71c99d832e8c5d11c96212b2b5f536fab0acf6320f5\""
+    },
     "duckietown_storage": {
         "Content": [
             {
