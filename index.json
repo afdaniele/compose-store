@@ -847,7 +847,7 @@
             }
         },
         "elfinder": {
-            "description": "\\compose\\ package adding the elFinder File Manager (https://github.com/Studio-42/elFinder).",
+            "description": "Package adding the elFinder File Manager (https://github.com/Studio-42/elFinder).",
             "git": {
                 "owner": "afdaniele",
                 "provider": "github.com",
@@ -884,6 +884,15 @@
                     "dependencies": []
                 },
                 "v0.0.4": {
+                    "compatibility": {
+                        "compose": {
+                            "maximum": "v2.0.0",
+                            "minimum": "v1.1.0"
+                        }
+                    },
+                    "dependencies": []
+                },
+                "v0.0.5": {
                     "compatibility": {
                         "compose": {
                             "maximum": "v2.0.0",
