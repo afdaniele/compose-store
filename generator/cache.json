@@ -934,6 +934,21 @@
         ],
         "ETag": "W/\"8d7a7ee1c458fdd5ec66d1dd027bed8f5b5a2b0d2ef78b00366680ab12b072bd\""
     },
+    "elfinder": {
+        "Content": [
+            {
+                "node_id": "MDM6UmVmMzQwNDQyMDUzOnJlZnMvdGFncy92MC4wLjE=",
+                "object": {
+                    "sha": "9833f12620dd61253a6d26cc4b2520af1db83835",
+                    "type": "tag",
+                    "url": "https://api.github.com/repos/afdaniele/compose-pkg-elfinder/git/tags/9833f12620dd61253a6d26cc4b2520af1db83835"
+                },
+                "ref": "refs/tags/v0.0.1",
+                "url": "https://api.github.com/repos/afdaniele/compose-pkg-elfinder/git/refs/tags/v0.0.1"
+            }
+        ],
+        "ETag": "W/\"cffdc45e0c37b9b444f0e5d91afd9e1b6eb5da640ea9a1e00d48ed6bc8d505b8\""
+    },
     "github": {
         "Content": [
             {

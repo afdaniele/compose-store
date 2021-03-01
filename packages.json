@@ -104,6 +104,13 @@
 			"git_owner": "afdaniele",
 			"git_repository": "compose-pkg-portainer",
 			"icon": "images/portainer.png"
+		},
+		{
+			"id": "elfinder",
+			"git_provider": "github.com",
+			"git_owner": "afdaniele",
+			"git_repository": "compose-pkg-elfinder",
+			"icon": "images/elfinder.png"
 		}
 	]
 }

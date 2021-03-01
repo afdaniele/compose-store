@@ -834,6 +834,27 @@
                 }
             }
         },
+        "elfinder": {
+            "description": "\\compose\\ package adding the elFinder File Manager (https://github.com/Studio-42/elFinder).",
+            "git": {
+                "owner": "afdaniele",
+                "provider": "github.com",
+                "repository": "compose-pkg-elfinder"
+            },
+            "icon": "images/elfinder.png",
+            "name": "elFinder",
+            "versions": {
+                "v0.0.1": {
+                    "compatibility": {
+                        "compose": {
+                            "maximum": "v2.0.0",
+                            "minimum": "v1.1.0"
+                        }
+                    },
+                    "dependencies": []
+                }
+            }
+        },
         "github": {
             "description": "Provides an interface to the GitHub API v3",
             "git": {
