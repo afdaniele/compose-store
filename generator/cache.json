@@ -965,9 +965,19 @@
                 },
                 "ref": "refs/tags/v0.0.3",
                 "url": "https://api.github.com/repos/afdaniele/compose-pkg-elfinder/git/refs/tags/v0.0.3"
+            },
+            {
+                "node_id": "MDM6UmVmMzQwNDQyMDUzOnJlZnMvdGFncy92MC4wLjQ=",
+                "object": {
+                    "sha": "028b4668274a8c48cd317460230763a1678789ab",
+                    "type": "tag",
+                    "url": "https://api.github.com/repos/afdaniele/compose-pkg-elfinder/git/tags/028b4668274a8c48cd317460230763a1678789ab"
+                },
+                "ref": "refs/tags/v0.0.4",
+                "url": "https://api.github.com/repos/afdaniele/compose-pkg-elfinder/git/refs/tags/v0.0.4"
             }
         ],
-        "ETag": "W/\"1005b5ff201420d5c6d67726888b210699e7c709854483b57b9f5cd5e64e35f6\""
+        "ETag": "W/\"528b93aa20f3699728222a5643e8573c1e807827e832775f176309f2518abc86\""
     },
     "github": {
         "Content": [

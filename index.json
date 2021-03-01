@@ -870,6 +870,15 @@
                         }
                     },
                     "dependencies": []
+                },
+                "v0.0.4": {
+                    "compatibility": {
+                        "compose": {
+                            "maximum": "v2.0.0",
+                            "minimum": "v1.1.0"
+                        }
+                    },
+                    "dependencies": []
                 }
             }
         },
