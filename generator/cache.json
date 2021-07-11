@@ -410,9 +410,19 @@
                 },
                 "ref": "refs/tags/v1.1.0",
                 "url": "https://api.github.com/repos/afdaniele/compose-pkg-duckietown/git/refs/tags/v1.1.0"
+            },
+            {
+                "node_id": "MDM6UmVmMTE3MzgxMjgzOnJlZnMvdGFncy92MS4xLjE=",
+                "object": {
+                    "sha": "bc51597cac9a7709aed72b4d7b2608308f495563",
+                    "type": "tag",
+                    "url": "https://api.github.com/repos/afdaniele/compose-pkg-duckietown/git/tags/bc51597cac9a7709aed72b4d7b2608308f495563"
+                },
+                "ref": "refs/tags/v1.1.1",
+                "url": "https://api.github.com/repos/afdaniele/compose-pkg-duckietown/git/refs/tags/v1.1.1"
             }
         ],
-        "ETag": "W/\"b5d192ba7e12d22f50682b408c9630021bf2c273300030635be2a06a42da5187\""
+        "ETag": "W/\"8e1cbe8ba8715e007f0f8c24dbc7ee33d539bfccaea91fd7c4827777b202a70b\""
     },
     "duckietown_blockly": {
         "Content": [

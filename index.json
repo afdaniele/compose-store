@@ -366,6 +366,15 @@
                         }
                     },
                     "dependencies": []
+                },
+                "v1.1.1": {
+                    "compatibility": {
+                        "compose": {
+                            "maximum": "v2.0.0",
+                            "minimum": "v1.0.8"
+                        }
+                    },
+                    "dependencies": []
                 }
             }
         },
