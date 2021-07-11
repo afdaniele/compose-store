@@ -509,31 +509,6 @@
         ],
         "ETag": "W/\"28d65bfd9e8665ec01804a99817c09b5ccc9015d96e034cbcdd920b7ba6268ed\""
     },
-    "duckietown_dashboard": {
-        "Content": [
-            {
-                "node_id": "MDM6UmVmMjg2MTM3MTg5OnJlZnMvdGFncy92MS4wLjA=",
-                "object": {
-                    "sha": "f6ea26dc228c568d4e01054d13188b7bc9c756da",
-                    "type": "tag",
-                    "url": "https://api.github.com/repos/duckietown/compose-pkg-duckietown-dashboard/git/tags/f6ea26dc228c568d4e01054d13188b7bc9c756da"
-                },
-                "ref": "refs/tags/v1.0.0",
-                "url": "https://api.github.com/repos/duckietown/compose-pkg-duckietown-dashboard/git/refs/tags/v1.0.0"
-            },
-            {
-                "node_id": "MDM6UmVmMjg2MTM3MTg5OnJlZnMvdGFncy92MS4wLjE=",
-                "object": {
-                    "sha": "ba2e9802dca365da9430780df7f02b016454af61",
-                    "type": "tag",
-                    "url": "https://api.github.com/repos/duckietown/compose-pkg-duckietown-dashboard/git/tags/ba2e9802dca365da9430780df7f02b016454af61"
-                },
-                "ref": "refs/tags/v1.0.1",
-                "url": "https://api.github.com/repos/duckietown/compose-pkg-duckietown-dashboard/git/refs/tags/v1.0.1"
-            }
-        ],
-        "ETag": "W/\"30a976728b4597950c1b5043f9c26f1b88866aa34959b3803a30fa8eb537c3cd\""
-    },
     "duckietown_diagnostics": {
         "Content": [
             {
@@ -1078,31 +1053,6 @@
             }
         ],
         "ETag": "W/\"ef51c50944c96b4326f3803c3d8971d1b8c73133f3dc783b9534044c5a295734\""
-    },
-    "duckietown_watchtower": {
-        "Content": [
-            {
-                "node_id": "MDM6UmVmMTQ0MjM4NzYxOnJlZnMvdGFncy92MC4xLjA=",
-                "object": {
-                    "sha": "0208ae60877982fe4cabe4985a0f7c1d2eee7648",
-                    "type": "tag",
-                    "url": "https://api.github.com/repos/afdaniele/compose-pkg-duckietown-watchtower/git/tags/0208ae60877982fe4cabe4985a0f7c1d2eee7648"
-                },
-                "ref": "refs/tags/v0.1.0",
-                "url": "https://api.github.com/repos/afdaniele/compose-pkg-duckietown-watchtower/git/refs/tags/v0.1.0"
-            },
-            {
-                "node_id": "MDM6UmVmMTQ0MjM4NzYxOnJlZnMvdGFncy92MC4xLjE=",
-                "object": {
-                    "sha": "10732b51ce5e4e92854fcfafd36373532492f40f",
-                    "type": "tag",
-                    "url": "https://api.github.com/repos/afdaniele/compose-pkg-duckietown-watchtower/git/tags/10732b51ce5e4e92854fcfafd36373532492f40f"
-                },
-                "ref": "refs/tags/v0.1.1",
-                "url": "https://api.github.com/repos/afdaniele/compose-pkg-duckietown-watchtower/git/refs/tags/v0.1.1"
-            }
-        ],
-        "ETag": "W/\"8d7a7ee1c458fdd5ec66d1dd027bed8f5b5a2b0d2ef78b00366680ab12b072bd\""
     },
     "elfinder": {
         "Content": [
