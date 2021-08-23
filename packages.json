@@ -111,6 +111,49 @@
 			"git_owner": "afdaniele",
 			"git_repository": "compose-pkg-elfinder",
 			"icon": "images/elfinder.png"
+		},
+
+		{
+			"id": "LETI-portainer",
+			"git_provider": "github.com",
+			"git_owner": "light5551",
+			"git_repository": "compose-pkg-portainer",
+			"icon": "images/portainer.png"
+		},
+		{
+			"id": "LETI-duckietown_duckiebot",
+			"git_provider": "github.com",
+			"git_owner": "light5551",
+			"git_repository": "compose-pkg-duckietown-duckiebot",
+			"icon": "images/duckietown_duckiebot.png"
+		},
+		{
+			"id": "LETI-duckietown_ros",
+			"git_provider": "github.com",
+			"git_owner": "light5551",
+			"git_repository": "compose-pkg-duckietown-ros",
+			"icon": "images/duckietown_ros.png"
+		},
+		{
+			"id": "LETI-elfinder",
+			"git_provider": "github.com",
+			"git_owner": "light5551",
+			"git_repository": "compose-pkg-elfinder",
+			"icon": "images/elfinder.png"
+		},
+		{
+			"id": "LETI-ros",
+			"git_provider": "github.com",
+			"git_owner": "light5551",
+			"git_repository": "compose-pkg-ros",
+			"icon": "images/ros.png"
+		}, 
+		{
+			"id": "LETI-duckietown",
+			"git_provider": "github.com",
+			"git_owner": "light5551",
+			"git_repository": "compose-pkg-duckietown",
+			"icon": "images/duckietown.png"
 		}
 	]
 }
