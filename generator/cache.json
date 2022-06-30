@@ -1388,5 +1388,20 @@
             }
         ],
         "ETag": "W/\"a65b614cb3f91cbe1b79ad340fa35b05db83fafbf08c09835dc653be1964e4ba\""
+    },
+    "vscode": {
+        "Content": [
+            {
+                "node_id": "REF_kwDOHljGbrByZWZzL3RhZ3MvdjAuMC4x",
+                "object": {
+                    "sha": "17c3d67ba9cb70def7b47e7ce9957f349bdf2b20",
+                    "type": "tag",
+                    "url": "https://api.github.com/repos/duckietown/compose-pkg-vscode/git/tags/17c3d67ba9cb70def7b47e7ce9957f349bdf2b20"
+                },
+                "ref": "refs/tags/v0.0.1",
+                "url": "https://api.github.com/repos/duckietown/compose-pkg-vscode/git/refs/tags/v0.0.1"
+            }
+        ],
+        "ETag": "W/\"02b59d2d1af4be0b01d083204b88420042b43e3ac84b8f7a0d3f6a7e71dfb88e\""
     }
 }

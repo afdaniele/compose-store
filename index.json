@@ -1328,6 +1328,27 @@
                     "dependencies": []
                 }
             }
+        },
+        "vscode": {
+            "description": "VSCode Code Editor",
+            "git": {
+                "owner": "duckietown",
+                "provider": "github.com",
+                "repository": "compose-pkg-vscode"
+            },
+            "icon": "images/vscode.png",
+            "name": "VSCode",
+            "versions": {
+                "v0.0.1": {
+                    "compatibility": {
+                        "compose": {
+                            "maximum": "v2.0.0",
+                            "minimum": "v1.0.0"
+                        }
+                    },
+                    "dependencies": []
+                }
+            }
         }
     }
 }

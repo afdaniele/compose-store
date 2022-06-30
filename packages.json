@@ -85,6 +85,13 @@
 			"icon": "images/duckietown_blockly.png"
 		},
 		{
+			"id": "vscode",
+			"git_provider": "github.com",
+			"git_owner": "duckietown",
+			"git_repository": "compose-pkg-vscode",
+			"icon": "images/vscode.png"
+		},
+		{
 			"id": "aido_common",
 			"git_provider": "github.com",
 			"git_owner": "afdaniele",
