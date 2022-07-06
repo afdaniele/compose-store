@@ -879,6 +879,19 @@
                         "data"
                     ]
                 },
+                "v1.4.10": {
+                    "compatibility": {
+                        "compose": {
+                            "maximum": "v2.0.0",
+                            "minimum": "v1.0.8"
+                        }
+                    },
+                    "dependencies": [
+                        "duckietown_ros",
+                        "duckietown",
+                        "data"
+                    ]
+                },
                 "v1.4.2": {
                     "compatibility": {
                         "compose": {
@@ -991,6 +1004,28 @@
             "name": "Duckietown - Duckiedrone",
             "versions": {
                 "v1.0.0": {
+                    "compatibility": {
+                        "compose": {
+                            "maximum": "v2.0.0",
+                            "minimum": "v1.0.0"
+                        }
+                    },
+                    "dependencies": [
+                        "ros"
+                    ]
+                },
+                "v1.0.1": {
+                    "compatibility": {
+                        "compose": {
+                            "maximum": "v2.0.0",
+                            "minimum": "v1.0.0"
+                        }
+                    },
+                    "dependencies": [
+                        "ros"
+                    ]
+                },
+                "v1.0.2": {
                     "compatibility": {
                         "compose": {
                             "maximum": "v2.0.0",
@@ -1271,6 +1306,15 @@
                     "dependencies": []
                 },
                 "v1.0.0": {
+                    "compatibility": {
+                        "compose": {
+                            "maximum": "v2.0.0",
+                            "minimum": "v1.0.0"
+                        }
+                    },
+                    "dependencies": []
+                },
+                "v1.0.1": {
                     "compatibility": {
                         "compose": {
                             "maximum": "v2.0.0",
