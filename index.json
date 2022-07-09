@@ -1116,6 +1116,17 @@
                     "dependencies": [
                         "ros"
                     ]
+                },
+                "v1.0.6": {
+                    "compatibility": {
+                        "compose": {
+                            "maximum": "v2.0.0",
+                            "minimum": "v1.0.0"
+                        }
+                    },
+                    "dependencies": [
+                        "ros"
+                    ]
                 }
             }
         },
