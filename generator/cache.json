@@ -1075,9 +1075,19 @@
                 },
                 "ref": "refs/tags/v1.4.14",
                 "url": "https://api.github.com/repos/afdaniele/compose-pkg-duckietown-duckiebot/git/refs/tags/v1.4.14"
+            },
+            {
+                "node_id": "MDM6UmVmMTQzNTczNDc5OnJlZnMvdGFncy92MS40LjE1",
+                "object": {
+                    "sha": "a2f2c45b057f77ec8faf85dfeb76c4ea38ecd225",
+                    "type": "tag",
+                    "url": "https://api.github.com/repos/afdaniele/compose-pkg-duckietown-duckiebot/git/tags/a2f2c45b057f77ec8faf85dfeb76c4ea38ecd225"
+                },
+                "ref": "refs/tags/v1.4.15",
+                "url": "https://api.github.com/repos/afdaniele/compose-pkg-duckietown-duckiebot/git/refs/tags/v1.4.15"
             }
         ],
-        "ETag": "W/\"fe96f8889b488676fa58e2eaa5616d4aa270de617b95eee36c7c77af37d1bf14\""
+        "ETag": "W/\"118bb7d5ee1a0052faaf19f547d4a1183787cacc44318fda6b3ea94f7839f977\""
     },
     "duckietown_duckiedrone": {
         "Content": [
