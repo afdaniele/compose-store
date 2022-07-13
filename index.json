@@ -1156,6 +1156,17 @@
                         "ros"
                     ]
                 },
+                "v1.0.10": {
+                    "compatibility": {
+                        "compose": {
+                            "maximum": "v2.0.0",
+                            "minimum": "v1.0.0"
+                        }
+                    },
+                    "dependencies": [
+                        "ros"
+                    ]
+                },
                 "v1.0.2": {
                     "compatibility": {
                         "compose": {
