@@ -1125,9 +1125,19 @@
                 },
                 "ref": "refs/tags/v1.4.17",
                 "url": "https://api.github.com/repos/afdaniele/compose-pkg-duckietown-duckiebot/git/refs/tags/v1.4.17"
+            },
+            {
+                "node_id": "MDM6UmVmMTQzNTczNDc5OnJlZnMvdGFncy92MS40LjE4",
+                "object": {
+                    "sha": "bef9bceb6fc2f4f6bdee6224be17551a4a47b39d",
+                    "type": "tag",
+                    "url": "https://api.github.com/repos/afdaniele/compose-pkg-duckietown-duckiebot/git/tags/bef9bceb6fc2f4f6bdee6224be17551a4a47b39d"
+                },
+                "ref": "refs/tags/v1.4.18",
+                "url": "https://api.github.com/repos/afdaniele/compose-pkg-duckietown-duckiebot/git/refs/tags/v1.4.18"
             }
         ],
-        "ETag": "W/\"adab82e92d5b404004ceeee5fa541b37eba7dc4da98046bfe7338a60927364bb\""
+        "ETag": "W/\"dbac8209abf067124d2a9a95b30e953265bca951a7113290e328a293ef216b64\""
     },
     "duckietown_duckiedrone": {
         "Content": [
@@ -1220,9 +1230,19 @@
                 },
                 "ref": "refs/tags/v1.0.8",
                 "url": "https://api.github.com/repos/duckietown/compose-pkg-duckietown-duckiedrone/git/refs/tags/v1.0.8"
+            },
+            {
+                "node_id": "MDM6UmVmMzEwNDQxNzAzOnJlZnMvdGFncy92MS4wLjk=",
+                "object": {
+                    "sha": "ad70ff952441255dc87f61230079481593b29837",
+                    "type": "tag",
+                    "url": "https://api.github.com/repos/duckietown/compose-pkg-duckietown-duckiedrone/git/tags/ad70ff952441255dc87f61230079481593b29837"
+                },
+                "ref": "refs/tags/v1.0.9",
+                "url": "https://api.github.com/repos/duckietown/compose-pkg-duckietown-duckiedrone/git/refs/tags/v1.0.9"
             }
         ],
-        "ETag": "W/\"1485d9e3a6a4b2b2c4e0191dce57e978392dbd2edd4d0d60ce2e5447373f7613\""
+        "ETag": "W/\"fe13e9a4e174da8ba67efa1f681cf425c0da895a071d397ac6fec3622361d07b\""
     },
     "duckietown_ros": {
         "Content": [
