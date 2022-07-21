@@ -1023,6 +1023,19 @@
                         "data"
                     ]
                 },
+                "v1.4.19": {
+                    "compatibility": {
+                        "compose": {
+                            "maximum": "v2.0.0",
+                            "minimum": "v1.0.8"
+                        }
+                    },
+                    "dependencies": [
+                        "duckietown_ros",
+                        "duckietown",
+                        "data"
+                    ]
+                },
                 "v1.4.2": {
                     "compatibility": {
                         "compose": {
