@@ -38,7 +38,7 @@
 		{
 			"id": "duckietown",
 			"git_provider": "github.com",
-			"git_owner": "afdaniele",
+			"git_owner": "duckietown",
 			"git_repository": "compose-pkg-duckietown",
 			"icon": "images/duckietown.png"
 		},
@@ -66,7 +66,7 @@
 		{
 			"id": "duckietown_duckiebot",
 			"git_provider": "github.com",
-			"git_owner": "afdaniele",
+			"git_owner": "duckietown",
 			"git_repository": "compose-pkg-duckietown-duckiebot",
 			"icon": "images/duckietown_duckiebot.png"
 		},
