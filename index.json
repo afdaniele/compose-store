@@ -222,7 +222,7 @@
         "duckietown": {
             "description": "Provides functionalities for managing entities in Duckietown (e.g., Duckietown, Duckiebots)",
             "git": {
-                "owner": "afdaniele",
+                "owner": "duckietown",
                 "provider": "github.com",
                 "repository": "compose-pkg-duckietown"
             },
@@ -577,7 +577,7 @@
         "duckietown_duckiebot": {
             "description": "Provides functionalities for monitoring Duckiebots",
             "git": {
-                "owner": "afdaniele",
+                "owner": "duckietown",
                 "provider": "github.com",
                 "repository": "compose-pkg-duckietown-duckiebot"
             },
