@@ -411,6 +411,15 @@
                         }
                     },
                     "dependencies": []
+                },
+                "v1.1.6": {
+                    "compatibility": {
+                        "compose": {
+                            "maximum": "v2.0.0",
+                            "minimum": "v1.1.7"
+                        }
+                    },
+                    "dependencies": []
                 }
             }
         },
@@ -1048,6 +1057,19 @@
                         "data"
                     ]
                 },
+                "v1.4.20": {
+                    "compatibility": {
+                        "compose": {
+                            "maximum": "v2.0.0",
+                            "minimum": "v1.0.8"
+                        }
+                    },
+                    "dependencies": [
+                        "duckietown_ros",
+                        "duckietown",
+                        "data"
+                    ]
+                },
                 "v1.4.3": {
                     "compatibility": {
                         "compose": {
@@ -1481,6 +1503,15 @@
                     "dependencies": []
                 },
                 "v1.0.1": {
+                    "compatibility": {
+                        "compose": {
+                            "maximum": "v2.0.0",
+                            "minimum": "v1.0.0"
+                        }
+                    },
+                    "dependencies": []
+                },
+                "v1.0.2": {
                     "compatibility": {
                         "compose": {
                             "maximum": "v2.0.0",
