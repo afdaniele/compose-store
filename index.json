@@ -186,6 +186,15 @@
                         }
                     },
                     "dependencies": []
+                },
+                "v1.0.1": {
+                    "compatibility": {
+                        "compose": {
+                            "maximum": "v2.0.0",
+                            "minimum": "v1.0.0"
+                        }
+                    },
+                    "dependencies": []
                 }
             }
         },
@@ -1206,6 +1215,19 @@
                     ]
                 },
                 "v1.4.9": {
+                    "compatibility": {
+                        "compose": {
+                            "maximum": "v2.0.0",
+                            "minimum": "v1.0.8"
+                        }
+                    },
+                    "dependencies": [
+                        "duckietown_ros",
+                        "duckietown",
+                        "data"
+                    ]
+                },
+                "v1.5.0": {
                     "compatibility": {
                         "compose": {
                             "maximum": "v2.0.0",
