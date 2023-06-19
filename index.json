@@ -438,6 +438,15 @@
                         }
                     },
                     "dependencies": []
+                },
+                "v1.1.8": {
+                    "compatibility": {
+                        "compose": {
+                            "maximum": "v2.0.0",
+                            "minimum": "v1.1.7"
+                        }
+                    },
+                    "dependencies": []
                 }
             }
         },
