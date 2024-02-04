@@ -1740,9 +1740,19 @@
                 },
                 "ref": "refs/tags/v1.0.4",
                 "url": "https://api.github.com/repos/afdaniele/compose-pkg-ros/git/refs/tags/v1.0.4"
+            },
+            {
+                "node_id": "MDM6UmVmMTc2MDQ3MTU2OnJlZnMvdGFncy92MS4wLjU=",
+                "object": {
+                    "sha": "7e1379c2b23a80c480c0f2aaebbd8d229357f71c",
+                    "type": "tag",
+                    "url": "https://api.github.com/repos/afdaniele/compose-pkg-ros/git/tags/7e1379c2b23a80c480c0f2aaebbd8d229357f71c"
+                },
+                "ref": "refs/tags/v1.0.5",
+                "url": "https://api.github.com/repos/afdaniele/compose-pkg-ros/git/refs/tags/v1.0.5"
             }
         ],
-        "ETag": "W/\"5d7b4878b8cbd32ac9bd01f4723000617685957ba666a6fa342e95df667ba126\""
+        "ETag": "W/\"debfda0a163317dc342ad8e88f04b73a403c5469f977e3863e1083d7e9346152\""
     },
     "showdown": {
         "Content": [

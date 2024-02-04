@@ -1726,6 +1726,15 @@
                         }
                     },
                     "dependencies": []
+                },
+                "v1.0.5": {
+                    "compatibility": {
+                        "compose": {
+                            "maximum": "v2.0.0",
+                            "minimum": "v1.0.0"
+                        }
+                    },
+                    "dependencies": []
                 }
             }
         },
