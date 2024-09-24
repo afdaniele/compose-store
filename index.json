@@ -1316,6 +1316,17 @@
                         "ros"
                     ]
                 },
+                "v1.0.11": {
+                    "compatibility": {
+                        "compose": {
+                            "maximum": "v2.0.0",
+                            "minimum": "v1.0.0"
+                        }
+                    },
+                    "dependencies": [
+                        "ros"
+                    ]
+                },
                 "v1.0.12": {
                     "compatibility": {
                         "compose": {
@@ -1405,6 +1416,17 @@
                     ]
                 },
                 "v1.0.9": {
+                    "compatibility": {
+                        "compose": {
+                            "maximum": "v2.0.0",
+                            "minimum": "v1.0.0"
+                        }
+                    },
+                    "dependencies": [
+                        "ros"
+                    ]
+                },
+                "v2.0.0": {
                     "compatibility": {
                         "compose": {
                             "maximum": "v2.0.0",
