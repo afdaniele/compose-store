@@ -1,5 +1,783 @@
 {
     "packages": {
+        "LETI-duckietown": {
+            "description": "Provides functionalities for managing entities in Duckietown (e.g., Duckietown, Duckiebots)",
+            "git": {
+                "owner": "light5551",
+                "provider": "github.com",
+                "repository": "compose-pkg-duckietown"
+            },
+            "icon": "images/duckietown.png",
+            "name": "Duckietown",
+            "versions": {
+                "v0.1.1": {
+                    "compatibility": {
+                        "compose": {
+                            "maximum": "v0.9.9",
+                            "minimum": "v0.0.0"
+                        }
+                    },
+                    "dependencies": [
+                        "ros",
+                        "portainer"
+                    ]
+                },
+                "v0.1.2": {
+                    "compatibility": {
+                        "compose": {
+                            "maximum": "v0.9.9",
+                            "minimum": "v0.0.0"
+                        }
+                    },
+                    "dependencies": [
+                        "ros",
+                        "portainer"
+                    ]
+                },
+                "v0.1.3": {
+                    "compatibility": {
+                        "compose": {
+                            "maximum": "v0.9.9",
+                            "minimum": "v0.0.0"
+                        }
+                    },
+                    "dependencies": [
+                        "ros",
+                        "portainer"
+                    ]
+                },
+                "v0.1.4": {
+                    "compatibility": {
+                        "compose": {
+                            "maximum": "v0.9.9",
+                            "minimum": "v0.0.0"
+                        }
+                    },
+                    "dependencies": [
+                        "ros",
+                        "portainer"
+                    ]
+                },
+                "v0.1.5": {
+                    "compatibility": {
+                        "compose": {
+                            "maximum": "v0.9.9",
+                            "minimum": "v0.0.0"
+                        }
+                    },
+                    "dependencies": [
+                        "ros",
+                        "portainer"
+                    ]
+                },
+                "v0.1.6": {
+                    "compatibility": {
+                        "compose": {
+                            "maximum": "v0.9.9",
+                            "minimum": "v0.0.0"
+                        }
+                    },
+                    "dependencies": [
+                        "ros",
+                        "portainer"
+                    ]
+                },
+                "v1.0.0": {
+                    "compatibility": {
+                        "compose": {
+                            "maximum": "v2.0.0",
+                            "minimum": "v1.0.0"
+                        }
+                    },
+                    "dependencies": [
+                        "ros",
+                        "portainer"
+                    ]
+                },
+                "v1.0.1": {
+                    "compatibility": {
+                        "compose": {
+                            "maximum": "v2.0.0",
+                            "minimum": "v1.0.0"
+                        }
+                    },
+                    "dependencies": [
+                        "ros",
+                        "portainer"
+                    ]
+                },
+                "v1.0.2": {
+                    "compatibility": {
+                        "compose": {
+                            "maximum": "v2.0.0",
+                            "minimum": "v1.0.0"
+                        }
+                    },
+                    "dependencies": [
+                        "ros",
+                        "portainer"
+                    ]
+                },
+                "v1.0.3": {
+                    "compatibility": {
+                        "compose": {
+                            "maximum": "v2.0.0",
+                            "minimum": "v1.0.0"
+                        }
+                    },
+                    "dependencies": [
+                        "ros",
+                        "portainer"
+                    ]
+                },
+                "v1.0.4": {
+                    "compatibility": {
+                        "compose": {
+                            "maximum": "v2.0.0",
+                            "minimum": "v1.0.0"
+                        }
+                    },
+                    "dependencies": []
+                },
+                "v1.1.0": {
+                    "compatibility": {
+                        "compose": {
+                            "maximum": "v2.0.0",
+                            "minimum": "v1.0.8"
+                        }
+                    },
+                    "dependencies": []
+                },
+                "v1.1.1": {
+                    "compatibility": {
+                        "compose": {
+                            "maximum": "v2.0.0",
+                            "minimum": "v1.1.7"
+                        }
+                    },
+                    "dependencies": []
+                },
+                "v1.1.2": {
+                    "compatibility": {
+                        "compose": {
+                            "maximum": "v2.0.0",
+                            "minimum": "v1.1.7"
+                        }
+                    },
+                    "dependencies": []
+                }
+            }
+        },
+        "LETI-duckietown_duckiebot": {
+            "description": "Provides functionalities for monitoring Duckiebots",
+            "git": {
+                "owner": "light5551",
+                "provider": "github.com",
+                "repository": "compose-pkg-duckietown-duckiebot"
+            },
+            "icon": "images/duckietown_duckiebot.png",
+            "name": "Duckietown - Duckiebot",
+            "versions": {
+                "v0.1.0": {
+                    "compatibility": {
+                        "compose": {
+                            "maximum": "v0.9.9",
+                            "minimum": "v0.0.0"
+                        }
+                    },
+                    "dependencies": [
+                        "duckietown"
+                    ]
+                },
+                "v0.1.1": {
+                    "compatibility": {
+                        "compose": {
+                            "maximum": "v0.9.9",
+                            "minimum": "v0.0.0"
+                        }
+                    },
+                    "dependencies": [
+                        "duckietown"
+                    ]
+                },
+                "v0.1.2": {
+                    "compatibility": {
+                        "compose": {
+                            "maximum": "v0.9.9",
+                            "minimum": "v0.0.0"
+                        }
+                    },
+                    "dependencies": [
+                        "duckietown",
+                        "data"
+                    ]
+                },
+                "v0.2.1": {
+                    "compatibility": {
+                        "compose": {
+                            "maximum": "v0.9.9",
+                            "minimum": "v0.0.0"
+                        }
+                    },
+                    "dependencies": [
+                        "duckietown",
+                        "data"
+                    ]
+                },
+                "v0.2.2": {
+                    "compatibility": {
+                        "compose": {
+                            "maximum": "v0.9.9",
+                            "minimum": "v0.0.0"
+                        }
+                    },
+                    "dependencies": [
+                        "duckietown",
+                        "data"
+                    ]
+                },
+                "v0.2.4": {
+                    "compatibility": {
+                        "compose": {
+                            "maximum": "v0.9.9",
+                            "minimum": "v0.0.0"
+                        }
+                    },
+                    "dependencies": [
+                        "duckietown",
+                        "data"
+                    ]
+                },
+                "v0.2.5": {
+                    "compatibility": {
+                        "compose": {
+                            "maximum": "v0.9.9",
+                            "minimum": "v0.0.0"
+                        }
+                    },
+                    "dependencies": [
+                        "duckietown",
+                        "data"
+                    ]
+                },
+                "v0.2.6": {
+                    "compatibility": {
+                        "compose": {
+                            "maximum": "v0.9.9",
+                            "minimum": "v0.0.0"
+                        }
+                    },
+                    "dependencies": [
+                        "duckietown",
+                        "data"
+                    ]
+                },
+                "v0.2.7": {
+                    "compatibility": {
+                        "compose": {
+                            "maximum": "v0.9.9",
+                            "minimum": "v0.0.0"
+                        }
+                    },
+                    "dependencies": [
+                        "duckietown",
+                        "data"
+                    ]
+                },
+                "v0.2.8": {
+                    "compatibility": {
+                        "compose": {
+                            "maximum": "v0.9.9",
+                            "minimum": "v0.0.0"
+                        }
+                    },
+                    "dependencies": [
+                        "duckietown",
+                        "data"
+                    ]
+                },
+                "v0.2.9": {
+                    "compatibility": {
+                        "compose": {
+                            "maximum": "v0.9.9",
+                            "minimum": "v0.0.0"
+                        }
+                    },
+                    "dependencies": [
+                        "duckietown",
+                        "data"
+                    ]
+                },
+                "v1.0.0": {
+                    "compatibility": {
+                        "compose": {
+                            "maximum": "v2.0.0",
+                            "minimum": "v1.0.0"
+                        }
+                    },
+                    "dependencies": [
+                        "duckietown",
+                        "data"
+                    ]
+                },
+                "v1.0.1": {
+                    "compatibility": {
+                        "compose": {
+                            "maximum": "v2.0.0",
+                            "minimum": "v1.0.2"
+                        }
+                    },
+                    "dependencies": [
+                        "duckietown",
+                        "data"
+                    ]
+                },
+                "v1.0.2": {
+                    "compatibility": {
+                        "compose": {
+                            "maximum": "v2.0.0",
+                            "minimum": "v1.0.2"
+                        }
+                    },
+                    "dependencies": [
+                        "duckietown",
+                        "data"
+                    ]
+                },
+                "v1.0.3": {
+                    "compatibility": {
+                        "compose": {
+                            "maximum": "v2.0.0",
+                            "minimum": "v1.0.2"
+                        }
+                    },
+                    "dependencies": [
+                        "duckietown",
+                        "data"
+                    ]
+                },
+                "v1.0.4": {
+                    "compatibility": {
+                        "compose": {
+                            "maximum": "v2.0.0",
+                            "minimum": "v1.0.2"
+                        }
+                    },
+                    "dependencies": [
+                        "duckietown",
+                        "data"
+                    ]
+                },
+                "v1.1.0": {
+                    "compatibility": {
+                        "compose": {
+                            "maximum": "v2.0.0",
+                            "minimum": "v1.0.8"
+                        }
+                    },
+                    "dependencies": [
+                        "duckietown",
+                        "data"
+                    ]
+                },
+                "v1.1.1": {
+                    "compatibility": {
+                        "compose": {
+                            "maximum": "v2.0.0",
+                            "minimum": "v1.0.8"
+                        }
+                    },
+                    "dependencies": [
+                        "duckietown",
+                        "data"
+                    ]
+                },
+                "v1.2.0": {
+                    "compatibility": {
+                        "compose": {
+                            "maximum": "v2.0.0",
+                            "minimum": "v1.0.8"
+                        }
+                    },
+                    "dependencies": [
+                        "duckietown",
+                        "data"
+                    ]
+                },
+                "v1.2.1": {
+                    "compatibility": {
+                        "compose": {
+                            "maximum": "v2.0.0",
+                            "minimum": "v1.0.8"
+                        }
+                    },
+                    "dependencies": [
+                        "duckietown",
+                        "data"
+                    ]
+                },
+                "v1.2.2": {
+                    "compatibility": {
+                        "compose": {
+                            "maximum": "v2.0.0",
+                            "minimum": "v1.0.8"
+                        }
+                    },
+                    "dependencies": [
+                        "duckietown",
+                        "data"
+                    ]
+                },
+                "v1.2.3": {
+                    "compatibility": {
+                        "compose": {
+                            "maximum": "v2.0.0",
+                            "minimum": "v1.0.8"
+                        }
+                    },
+                    "dependencies": [
+                        "duckietown",
+                        "data"
+                    ]
+                },
+                "v1.2.4": {
+                    "compatibility": {
+                        "compose": {
+                            "maximum": "v2.0.0",
+                            "minimum": "v1.0.8"
+                        }
+                    },
+                    "dependencies": [
+                        "duckietown",
+                        "data"
+                    ]
+                },
+                "v1.2.5": {
+                    "compatibility": {
+                        "compose": {
+                            "maximum": "v2.0.0",
+                            "minimum": "v1.0.8"
+                        }
+                    },
+                    "dependencies": [
+                        "duckietown",
+                        "data"
+                    ]
+                },
+                "v1.3.0": {
+                    "compatibility": {
+                        "compose": {
+                            "maximum": "v2.0.0",
+                            "minimum": "v1.0.8"
+                        }
+                    },
+                    "dependencies": [
+                        "duckietown",
+                        "data"
+                    ]
+                },
+                "v1.4.0": {
+                    "compatibility": {
+                        "compose": {
+                            "maximum": "v2.0.0",
+                            "minimum": "v1.0.8"
+                        }
+                    },
+                    "dependencies": [
+                        "duckietown",
+                        "data"
+                    ]
+                },
+                "v1.4.1": {
+                    "compatibility": {
+                        "compose": {
+                            "maximum": "v2.0.0",
+                            "minimum": "v1.0.8"
+                        }
+                    },
+                    "dependencies": [
+                        "duckietown",
+                        "data"
+                    ]
+                },
+                "v1.4.2": {
+                    "compatibility": {
+                        "compose": {
+                            "maximum": "v2.0.0",
+                            "minimum": "v1.0.8"
+                        }
+                    },
+                    "dependencies": [
+                        "duckietown",
+                        "data"
+                    ]
+                },
+                "v1.4.3": {
+                    "compatibility": {
+                        "compose": {
+                            "maximum": "v2.0.0",
+                            "minimum": "v1.0.8"
+                        }
+                    },
+                    "dependencies": [
+                        "duckietown",
+                        "data"
+                    ]
+                },
+                "v1.4.4": {
+                    "compatibility": {
+                        "compose": {
+                            "maximum": "v2.0.0",
+                            "minimum": "v1.0.8"
+                        }
+                    },
+                    "dependencies": [
+                        "duckietown",
+                        "data"
+                    ]
+                },
+                "v1.4.5": {
+                    "compatibility": {
+                        "compose": {
+                            "maximum": "v2.0.0",
+                            "minimum": "v1.0.8"
+                        }
+                    },
+                    "dependencies": [
+                        "duckietown",
+                        "data"
+                    ]
+                },
+                "v1.4.6": {
+                    "compatibility": {
+                        "compose": {
+                            "maximum": "v2.0.0",
+                            "minimum": "v1.0.8"
+                        }
+                    },
+                    "dependencies": [
+                        "duckietown",
+                        "data"
+                    ]
+                },
+                "v1.4.7": {
+                    "compatibility": {
+                        "compose": {
+                            "maximum": "v2.0.0",
+                            "minimum": "v1.0.8"
+                        }
+                    },
+                    "dependencies": [
+                        "duckietown_ros",
+                        "duckietown",
+                        "data"
+                    ]
+                }
+            }
+        },
+        "LETI-duckietown_ros": {
+            "description": "Provides utilities for supporting ROS in Duckietown.",
+            "git": {
+                "owner": "light5551",
+                "provider": "github.com",
+                "repository": "compose-pkg-duckietown-ros"
+            },
+            "icon": "images/duckietown_ros.png",
+            "name": "Duckietown - ROS",
+            "versions": {
+                "v0.0.1": {
+                    "compatibility": {
+                        "compose": {
+                            "maximum": "v2.0.0",
+                            "minimum": "v1.0.0"
+                        }
+                    },
+                    "dependencies": [
+                        "ros"
+                    ]
+                }
+            }
+        },
+        "LETI-elfinder": {
+            "description": "Package adding the elFinder File Manager (https://github.com/Studio-42/elFinder).",
+            "git": {
+                "owner": "light5551",
+                "provider": "github.com",
+                "repository": "compose-pkg-elfinder"
+            },
+            "icon": "images/elfinder.png",
+            "name": "elFinder",
+            "versions": {
+                "v0.0.1": {
+                    "compatibility": {
+                        "compose": {
+                            "maximum": "v2.0.0",
+                            "minimum": "v1.1.0"
+                        }
+                    },
+                    "dependencies": []
+                },
+                "v0.0.2": {
+                    "compatibility": {
+                        "compose": {
+                            "maximum": "v2.0.0",
+                            "minimum": "v1.1.0"
+                        }
+                    },
+                    "dependencies": []
+                },
+                "v0.0.3": {
+                    "compatibility": {
+                        "compose": {
+                            "maximum": "v2.0.0",
+                            "minimum": "v1.1.0"
+                        }
+                    },
+                    "dependencies": []
+                },
+                "v0.0.4": {
+                    "compatibility": {
+                        "compose": {
+                            "maximum": "v2.0.0",
+                            "minimum": "v1.1.0"
+                        }
+                    },
+                    "dependencies": []
+                },
+                "v0.0.5": {
+                    "compatibility": {
+                        "compose": {
+                            "maximum": "v2.0.0",
+                            "minimum": "v1.1.0"
+                        }
+                    },
+                    "dependencies": []
+                }
+            }
+        },
+        "LETI-portainer": {
+            "description": "Provides a page that incorporates portainer",
+            "git": {
+                "owner": "light5551",
+                "provider": "github.com",
+                "repository": "compose-pkg-portainer"
+            },
+            "icon": "images/portainer.png",
+            "name": "Portainer",
+            "versions": {
+                "v0.1.1": {
+                    "compatibility": {
+                        "compose": {
+                            "maximum": "v0.9.9",
+                            "minimum": "v0.0.0"
+                        }
+                    },
+                    "dependencies": []
+                },
+                "v0.1.2": {
+                    "compatibility": {
+                        "compose": {
+                            "maximum": "v0.9.9",
+                            "minimum": "v0.0.0"
+                        }
+                    },
+                    "dependencies": []
+                },
+                "v0.1.3": {
+                    "compatibility": {
+                        "compose": {
+                            "maximum": "v0.9.9",
+                            "minimum": "v0.0.0"
+                        }
+                    },
+                    "dependencies": []
+                },
+                "v0.1.4": {
+                    "compatibility": {
+                        "compose": {
+                            "maximum": "v0.9.9",
+                            "minimum": "v0.0.0"
+                        }
+                    },
+                    "dependencies": []
+                },
+                "v1.0.0": {
+                    "compatibility": {
+                        "compose": {
+                            "maximum": "v2.0.0",
+                            "minimum": "v1.0.0"
+                        }
+                    },
+                    "dependencies": []
+                },
+                "v1.0.1": {
+                    "compatibility": {
+                        "compose": {
+                            "maximum": "v2.0.0",
+                            "minimum": "v1.0.0"
+                        }
+                    },
+                    "dependencies": []
+                }
+            }
+        },
+        "LETI-ros": {
+            "description": "Provides libraries and APIs for exchanging messages with a ROS network via websocket",
+            "git": {
+                "owner": "light5551",
+                "provider": "github.com",
+                "repository": "compose-pkg-ros"
+            },
+            "icon": "images/ros.png",
+            "name": "ROS",
+            "versions": {
+                "v0.1.0": {
+                    "compatibility": {
+                        "compose": {
+                            "maximum": "v0.9.9",
+                            "minimum": "v0.0.0"
+                        }
+                    },
+                    "dependencies": []
+                },
+                "v0.1.1": {
+                    "compatibility": {
+                        "compose": {
+                            "maximum": "v0.9.9",
+                            "minimum": "v0.0.0"
+                        }
+                    },
+                    "dependencies": []
+                },
+                "v0.1.2": {
+                    "compatibility": {
+                        "compose": {
+                            "maximum": "v0.9.9",
+                            "minimum": "v0.0.0"
+                        }
+                    },
+                    "dependencies": []
+                },
+                "v0.1.3": {
+                    "compatibility": {
+                        "compose": {
+                            "maximum": "v0.9.9",
+                            "minimum": "v0.0.0"
+                        }
+                    },
+                    "dependencies": []
+                },
+                "v1.0.0": {
+                    "compatibility": {
+                        "compose": {
+                            "maximum": "v2.0.0",
+                            "minimum": "v1.0.0"
+                        }
+                    },
+                    "dependencies": []
+                }
+            }
+        },
         "aido_common": {
             "description": "Provides utilities shared among all the AIDO packages",
             "git": {
